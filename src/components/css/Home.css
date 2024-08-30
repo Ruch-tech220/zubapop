@@ -1,0 +1,85 @@
+.masthead {
+  padding: 3rem 0;
+  text-align: center;
+  background-image: url('https://www.beautyppt.com/uploads/data/30645/OD8vfzb0ymEwNxle.jpg'); /* ใช้ URL รูปภาพจากตัวอย่าง */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.masthead .position-relative {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ใช้ความสูงที่ต้องการ */
+}
+
+
+.site-heading {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.site-heading h1 {
+  font-size: 3rem;
+  /* ขนาดตัวอักษรของหัวเรื่องหลัก */
+  margin: 0; /* ปรับ margin ของ h1 */
+  padding: 0; /* ปรับ padding ของ h1 */
+    color: rgb(0, 0, 0);
+}
+
+.site-heading .subheading {
+  display: block; /* ทำให้ .subheading เป็น block element เพื่อให้มันอยู่ตรงกลางได้ */
+  margin-top: 0.5; /* เพิ่มระยะห่างระหว่าง h1 กับ subheading */
+  color: black;
+}
+.main-content {
+  background-image: url('https://www.beautyppt.com/uploads/data/30645/OD8vfzb0ymEwNxle.jpg'); /* ใช้รูปภาพเดียวกันหรือลองเปลี่ยนเป็นรูปภาพอื่น */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px; /* เพิ่มระยะห่างภายใน */
+  
+}
+
+.home-header {
+  text-align: center;
+  /* จัดข้อความให้อยู่กลาง */
+  padding: 2rem 1rem;
+  /* เพิ่มพื้นที่ด้านบนและด้านล่าง */
+  background-color: #ffffff;
+  /* สีพื้นหลังของ header */
+  margin-bottom: 2rem;
+  /* ระยะห่างด้านล่างของ header */
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  /* ขนาดตัวอักษรของหัวเรื่องหลักในหน้าแรก */
+  margin-bottom: 1rem;
+  /* ระยะห่างด้านล่างของหัวเรื่องหลัก */
+}
+
+.home-header p {
+  font-size: 1.125rem;
+  /* ขนาดตัวอักษรของย่อหน้า */
+  color: #495057;
+  /* สีของข้อความในย่อหน้า */
+}
+
+
+
+.container1{
+  background-color: white;
+  padding: 30px;
+  border-radius: 50px;
+  border: 1px solid rgb(77, 149, 242);
+}
+
+
+

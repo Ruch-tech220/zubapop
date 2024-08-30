@@ -1,0 +1,56 @@
+/* About.css */
+
+.main {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  border: 1px solid rgb(115, 189, 254);
+}
+
+.container2 {
+  max-width: 100%;
+  padding: 20px; /* เพิ่ม padding เพื่อให้เนื้อหาไม่ติดขอบ */
+  border-radius: 8px; /* หากต้องการให้มีมุมโค้ง */
+  background-color: blakc;
+}
+
+.about-content {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  text-align: center; /* จัดตำแหน่งข้อความให้อยู่กลาง */
+  border: 1px solid rgb(115, 189, 254);
+
+}
+
+.profile-img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.position {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,116 @@
+/* Map styling */
+#map {
+    height: 600px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Info content styling */
+.info-content-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    height: 600px; /* Make sure it matches the height of the map */
+}
+
+.info-header {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info-status {
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.info-heading {
+    margin: 0;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+}
+
+.info-list {
+    margin-bottom: 15px;
+}
+
+.info-button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Tooltip styling */
+.tooltip-content {
+    max-width: 3000px;
+}
+
+.tooltip-header {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tooltip-status {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tooltip-details p {
+    margin: 5px 0;
+    color: black;
+}
+
+.tooltip-updated{
+    color: black;
+}
+
+.tableAQI {
+    width: 98.3%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.tableAQI thead {
+    background-color: #f0f0f0;
+}
+
+.tableAQI th,
+.tableAQI td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.tableAQI .headeraqi th {
+    font-weight: bold;
+}
+
+.tableAQI .pm25-range-1 {
+    background-color: rgba(0, 255, 0, 1);
+}
+
+.tableAQI .pm25-range-2 {
+    background-color: rgba(255, 255, 0, 1);
+}
+
+.tableAQI .pm25-range-3 {
+    background-color: rgba(255, 165, 0, 1);
+}
+
+.tableAQI .pm25-range-4 {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.tableAQI .pm25-range-5 {
+    background-color: rgba(128, 0, 128, 1);
+}

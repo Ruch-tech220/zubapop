@@ -1,0 +1,65 @@
+.custom-footer {
+    background-color: #f8f9fa; /* พื้นหลังสีอ่อน */
+    padding: 20px 0; /* ช่องว่างด้านบนและด้านล่าง */
+    border-top: 10px solid #7dbbf9; /* เส้นแบ่งด้านบน */
+}
+
+/* Container for social media icons */
+.social-list {
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center align the icons */
+}
+
+/* Individual social media items */
+.social-item {
+    display: inline-block;
+    margin: 0 15px; /* Space between icons */
+}
+
+/* Styling the link */
+.social-link {
+    display: block;
+    width: 50px; /* Size of the icon */
+    height: 50px; /* Size of the icon */
+    border-radius: 50%; /* Make the icon circular */
+    background-color: #3b5998; /* Facebook blue */
+    color: #fff;
+    text-align: center;
+    line-height: 50px; /* Center the icon vertically */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background and hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for better visual effect */
+    position: relative; /* Enable positioning for child elements */
+}
+
+/* Hover effect for social media links */
+.social-link:hover {
+    background-color: #2d4373; /* Darker shade for hover effect */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Stack icons */
+.fa-stack {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute; /* Absolute positioning within the link */
+    top: 0;
+    left: 0;
+    text-align: center; /* Center align the icon */
+}
+
+/* Background circle */
+.fa-circle {
+    color: #3b5998; /* Facebook blue background */
+}
+
+/* Facebook icon */
+.fab.fa-facebook-f {
+    color: #fff; /* White icon color */
+    line-height: normal; /* Reset line-height */
+    position: relative; /* Reset position */
+    top: 50%; /* Move to the vertical center */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+}
+

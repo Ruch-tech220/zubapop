@@ -1,0 +1,90 @@
+/* Contact.css */
+
+/* การตั้งค่า CSS สำหรับ header */
+.masthead {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.page-heading {
+    padding: 0 15px;
+}
+
+.page-heading h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.page-heading .subheading {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+/* การตั้งค่า CSS สำหรับฟอร์ม */
+.form-floating {
+    margin-bottom: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-primary {
+    border-radius: 50px;
+}
+
+#submitSuccessMessage,
+#submitErrorMessage {
+    display: none;
+}
+
+/* การตั้งค่า CSS สำหรับ footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.list-inline-item {
+    margin: 0 0.5rem;
+}
+
+.list-inline-item a {
+    color: #333;
+}
+
+.list-inline-item a:hover {
+    color: #007bff;
+}
+
+.container {
+    padding: 0 15px;
+    
+}
+
+.info-box {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(33, 112, 136);
+}
+
+.info-box h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 1rem;
+    color: #495057;
+}

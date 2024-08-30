@@ -1,0 +1,106 @@
+/* Container for the entire table component */
+.table-container {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #d7eef9;
+}
+
+/* Search input styling */
+.search-container {
+    margin-bottom: 15px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 123, 255, 0.2);
+}
+
+/* Wrapper for the DataTable */
+.rdt_TableWrapper {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the DataTable */
+.rdt_Table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Header styling */
+.rdt_Table thead th {
+    background-color: #007bff; /* Blue background for header */
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #0056b3; /* Darker blue border for header */
+    font-size: 16px;
+}
+
+/* Row styling */
+.rdt_Table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.rdt_Table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Cell styling */
+.rdt_Table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect for rows */
+.rdt_Table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Pagination styling */
+.rdt_Pagination {
+    margin: 10px 0;
+    text-align: right;
+}
+
+.rdt_Pagination button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 2px;
+}
+
+.rdt_Pagination button:hover {
+    background-color: #0056b3;
+}
+
+.rdt_Pagination .rdt_Pagination__current {
+    background-color: #0056b3;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Dense rows styling */
+.rdt_Table.dense tbody td {
+    padding: 5px;
+    font-size: 14px;
+}
