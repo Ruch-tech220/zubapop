@@ -18,8 +18,8 @@ function Footer() {
                 </ul>
 
                 <p className="mt-3 mb-0">&copy; {new Date().getFullYear()} YourSite. All rights reserved.</p>
-                <p className="mb-0">Contact us: contact@yoursite.com | +123 456 7890</p>
-                <p className="mb-0">123 Your Street, Your City, Your Country</p>
+                <p className="mb-0">Contact us: hr@naruthee.com | 0824012345</p>
+                <p className="mb-0">28 ซ.ลาดพร้าว 60 แขวงวังทองหลาง เขตวังทองหลาง กรุงเทพ  10310, bangkok, Thailand</p>
             </footer>
         </>
     )

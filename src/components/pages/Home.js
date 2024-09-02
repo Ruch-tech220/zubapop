@@ -30,8 +30,8 @@ const Home = () => {
             <div className="main-content">
                 <div className="container1">
                     <header className="home-header">
-                        <h1>Welcome to the Home Page</h1>
-                        <p>Here you can find the air quality information for provinces in Thailand.</p>
+                        <h1>ยินดีต้อนรับสู่หน้าแรก</h1>
+                        <p>คุณสามารถดูข้อมูลคุณภาพอากาศสำหรับจังหวัดต่างๆ ในประเทศไทยได้ที่นี่</p>
                     </header>
                     {/* <div>
                         <h1>Weather Forecast for Thailand</h1>
