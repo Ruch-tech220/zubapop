@@ -376,7 +376,7 @@ const MapComponent = () => {
                 <table className="tableAQI">
                     <thead>
                         <tr className="headeraqi">
-                            <th>PM<sub>2.5</sub>(μg/m<sup>3</sup>)</th>
+                            <th>PM<sub>2.5</sub>(μg/m<sup>3</sup>)(ไมโครกรัมต่อลูกบาศก์เมตร)</th>
                             <td className="pm25-range-1">0-25</td>
                             <td className="pm25-range-2">26-50</td>
                             <td className="pm25-range-3">51-100</td>

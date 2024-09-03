@@ -2086,7 +2086,7 @@ const provinces = [
       },
       {
         name: "เขื่อนพระปรง",
-        image: "/assets/image/sakaeo4.jpg"
+        image: "/assets/image/sakaeo4.jpeg"
       },
       {
         name: "วัดถ้ำเขาฉกรรจ์",
