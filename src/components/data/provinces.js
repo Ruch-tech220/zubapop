@@ -794,11 +794,11 @@ const provinces = [
       },
       {
         name: "ภูผาเทิบ",
-        image: "/project/zubapop/assets/image/nakhonphanom4.webp"
+        image: "/project/zubapop/assets/image/nakhonphanom4.jpg"
       },
       {
         name: "แก่งกะเบา",
-        image: "/project/zubapop/assets/image/nakhonphanom5.jpg"
+        image: "/project/zubapop/assets/image/nakhonphanom5.jpeg"
       }
     ]
   },
