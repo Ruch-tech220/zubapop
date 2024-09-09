@@ -202,12 +202,11 @@ import '../css/MapComponent.css';
 import "leaflet.fullscreen/Control.FullScreen.css";
 import "leaflet.fullscreen";
 
-
 const API_KEY = "47de584d708e209aa1803379fa530fe9221def58";
 
 const MapComponent = () => {
     const mapRef = useRef(null);
-    const [infoContent, setInfoContent] = useState("");
+    const [infoContent, setInfoContent] = useState(null); // เปลี่ยนจาก string เป็น null หรือ React element
     const navigate = useNavigate();
 
 
@@ -230,8 +229,7 @@ const MapComponent = () => {
 
             fetchAllProvincesData(mapRef.current);
         }
-    }, []);
-
+    }, [fetchAllProvincesData]);
 
     function createCustomIcon(pm25) {
         return L.divIcon({
@@ -263,7 +261,6 @@ const MapComponent = () => {
         if (pm25 > 200) return "อากาศอันตราย";
         return "ไม่ทราบ";
     }
-
 
     async function fetchProvincePM25Data(province) {
         try {
@@ -325,30 +322,37 @@ const MapComponent = () => {
                 `, { sticky: true });
 
                 marker.on("click", function () {
-                    setInfoContent(`
-                        <div class="container info-content-container">
-                            <h2 class="info-header">สถานที่คือ: จังหวัด ${province.name}</h2>
-                            <div class="info-status" style="background-color: ${color};">
-                                <h4 class="info-heading">${pm25} ${status}</h4>
+                    setInfoContent(
+                        <div className="container info-content-container">
+                            <h2 className="info-header">สถานที่คือ: จังหวัด {province.name}</h2>
+                            <div className="info-status" style={{ backgroundColor: color }}>
+                                <h4 className="info-heading">{pm25} {status}</h4>
                             </div>
-                            <h3 class="mb-3">รายละเอียด:</h3>
-                               <div class="container" style="padding: 15px; border: 2px solid #ddd; border-radius: 8px; background-color: #f9f9f9; margin-top: 20px;">
-                                    <li class="list-group-item">ค่า PM2.5: ${pm25} μg/m³</li>
-                                    <li class="list-group-item">ค่า PM10: ${pm10} μg/m³</li>
-                                    <li class="list-group-item">อุณหภูมิ: ${t} °C</li>
-                                    <li class="list-group-item">ความชื้น: ${h} %</li>
-                                    <li class="list-group-item">ความเร็วลม: ${w} m/s</li>
-                                    <li class="list-group-item">ค่า CO: ${co} μg/m³</li>
-                                    <li class="list-group-item">ค่า NO<sub>2</sub>: ${no2} μg/m³</li>
-                                    <li class="list-group-item">ค่า O<sub>3</sub>: ${o3} μg/m³</li>
-                                    <li class="list-group-item">ค่า SO<sub>2</sub>: ${so2} μg/m³</li>
-                                    <li class="list-group-item">ความกดอากาศ: ${p} hPa</li>
-                                    <li class="list-group-item">ปริมาณน้ำฝน: ${r} mm</li>
-                                    <li class="list-group-item">อัปเดตล่าสุด: ${currentTime}</li>
-                                </div>
-                            <button onclick="window.location.href='/location/${province.postalCode}'" class="btn btn-primary info-button">ดูรายละเอียดเพิ่มเติม</button>
+                            <h3 className="mb-3">รายละเอียด:</h3>
+                            <div className="container" style={{ padding: '15px', border: '2px solid #ddd', borderRadius: '8px', backgroundColor: '#f9f9f9', marginTop: '20px' }}>
+                                <ul>
+                                    <li className="list-group-item">ค่า PM2.5: {pm25} μg/m³</li>
+                                    <li className="list-group-item">ค่า PM10: {pm10} μg/m³</li>
+                                    <li className="list-group-item">อุณหภูมิ: {t} °C</li>
+                                    <li className="list-group-item">ความชื้น: {h} %</li>
+                                    <li className="list-group-item">ความเร็วลม: {w} m/s</li>
+                                    <li className="list-group-item">ค่า CO: {co} μg/m³</li>
+                                    <li className="list-group-item">ค่า NO<sub>2</sub>: {no2} μg/m³</li>
+                                    <li className="list-group-item">ค่า O<sub>3</sub>: {o3} μg/m³</li>
+                                    <li className="list-group-item">ค่า SO<sub>2</sub>: {so2} μg/m³</li>
+                                    <li className="list-group-item">ความกดอากาศ: {p} hPa</li>
+                                    <li className="list-group-item">ปริมาณน้ำฝน: {r} mm</li>
+                                    <li className="list-group-item">อัปเดตล่าสุด: {currentTime}</li>
+                                </ul>
+                            </div>
+                            <button
+                                className="btn btn-primary info-button"
+                                onClick={() => navigate(`/location/${province.postalCode}`)}
+                            >
+                                ดูรายละเอียดเพิ่มเติม
+                            </button>
                         </div>
-                    `);
+                    );
                 });
                 return marker;
             } else {
@@ -361,14 +365,12 @@ const MapComponent = () => {
         }
     }
 
-
     function fetchAllProvincesData(map) {
         provinces.forEach(async (province) => {
             const marker = await fetchProvincePM25Data(province);
             if (marker) map.addLayer(marker);
         });
     }
-
 
     return (
         <div className="MapCom">
@@ -389,13 +391,13 @@ const MapComponent = () => {
                     </tbody>
                 </table>
                 <div className="col-md-6">
-                    <div id="map"></div>
+                    <div id="map" style={{ height: "600px" }}></div> {/* กำหนดความสูงของแผนที่ */}
                 </div>
                 <div className="col-md-6">
-                    <div id="info-content" dangerouslySetInnerHTML={{ __html: infoContent }}></div>
-
+                    <div id="info-content">
+                        {infoContent}
+                    </div>
                     {/* ตารางข้อมูลที่มีการแสดงค่า PM2.5 */}
-
                 </div>
             </div>
         </div>
@@ -403,3 +405,4 @@ const MapComponent = () => {
 };
 
 export default MapComponent;
+

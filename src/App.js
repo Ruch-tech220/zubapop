@@ -23,7 +23,7 @@ const AppContent = () => {
     setLoading(true); // เริ่มโหลด
     const timer = setTimeout(() => {
       setLoading(false); // เสร็จสิ้นการโหลด
-    }, 500); // ปรับค่าเป็นเวลาโหลดที่ต้องการ
+    }, 500); // ตั้งค่าเวลาการโหลด 500ms (สามารถปรับได้)
 
     return () => clearTimeout(timer); // ทำความสะอาด timer เมื่อคอมโพเนนต์ถูกยกเลิก
   }, [location.pathname]);
@@ -31,16 +31,18 @@ const AppContent = () => {
   return (
     <>
       <Navbar />
-        {loading && <Spinner />}
+      {loading ? (
+        <Spinner />
+      ) : (
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/location/:postalCode" element={<LocationPage />} />
-          <Route path="/Table" element={<TableComponentPage/>} />
-          <Route path="/Map" element={<MapComponentPage/>} />
+          <Route path="/Table" element={<TableComponentPage />} />
+          <Route path="/Map" element={<MapComponentPage />} />
         </Routes>
-        
+      )}
       <Footer />
     </>
   );

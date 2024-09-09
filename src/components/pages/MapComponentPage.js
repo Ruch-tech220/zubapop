@@ -1,10 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MapComponent from '../js/MapComponent';
-import provinces from '../data/provinces';
-import TableComponent from '../js/TableComponent';
+
 import '../css/Home.css'
-import WeatherForecast from '../js/WeatherForecast';
 
 const MapComponentPage = () => {
     return (
@@ -34,7 +32,7 @@ const MapComponentPage = () => {
                         <p>Here you can find the air quality information for provinces in Thailand.</p>
                     </header>
                     <main>
-                        <MapComponent/>
+                        <MapComponent />
                     </main>
                 </div>
             </div>

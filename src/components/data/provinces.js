@@ -21,23 +21,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระศรีรัตนศาสดาราม",
-        image: "/assets/image/bangkok2.jpg"
+        image: "/project/zubapop/assets/image/bangkok2.jpg"
       },
       {
         name: "วัดอรุณราชวรารามราชวรมหาวิหาร",
-        image: "/assets/image/bangkok3.jpg"
+        image: "/project/zubapop/assets/image/bangkok3.jpg"
       },
       {
         name: "วัดเบญจมบพิตรดุสิตวนารามราชวรมหาวิหาร",
-        image: "/assets/image/bangkok4.jpg"
+        image: "/project/zubapop/assets/image/bangkok4.jpg"
       },
       {
         name: "พระบรมมหาราชวัง",
-        image: "/assets/image/bangkok5.jpg"
+        image: "/project/zubapop/assets/image/bangkok5.jpg"
       },
       {
         name: "ตลาดนัดจตุจักร",
-        image: "/assets/image/bangkok6.jpg"
+        image: "/project/zubapop/assets/image/bangkok6.jpg"
       }
     ]
   }, {
@@ -61,23 +61,23 @@ const provinces = [
     places: [
       {
         "name": "อุทยานแห่งชาติหาดนพรัตน์ธารา-หมู่เกาะพีพี",
-        "image": "/assets/image/krabi1.jpg"
+        "image": "/project/zubapop/assets/image/krabi1.jpg"
       },
       {
         "name": "เกาะพีพีเล",
-        "image": "/assets/image/krabi2.jpg"
+        "image": "/project/zubapop/assets/image/krabi2.jpg"
       },
       {
         "name": "อ่าวมาหยา",
-        "image": "/assets/image/krabi3.jpg"
+        "image": "/project/zubapop/assets/image/krabi3.jpg"
       },
       {
         "name": "ทะเลแหวก",
-        "image": "/assets/image/krabi4.jpg"
+        "image": "/project/zubapop/assets/image/krabi4.jpg"
       },
       {
         "name": "สระมรกต",
-        "image": "/assets/image/krabi5.jpg"
+        "image": "/project/zubapop/assets/image/krabi5.jpg"
       },
     ]
   },
@@ -105,23 +105,23 @@ const provinces = [
     places: [
       {
         name: "สะพานข้ามแม่น้ำแคว",
-        image: "/assets/image/kanchanaburi1.jpg"
+        image: "/project/zubapop/assets/image/kanchanaburi1.jpg"
       },
       {
         name: "ทางรถไฟสายมรณะ",
-        image: "/assets/image/kanchanaburi2.jpg"
+        image: "/project/zubapop/assets/image/kanchanaburi2.jpg"
       },
       {
         name: "สุสานทหารสัมพันธมิตรดอนรัก",
-        image: "/assets/image/kanchanaburi3.jpg"
+        image: "/project/zubapop/assets/image/kanchanaburi3.jpg"
       },
       {
         name: "อุทยานประวัติศาสตร์เมืองสิงห์",
-        image: "/assets/image/kanchanaburi4.jpg"
+        image: "/project/zubapop/assets/image/kanchanaburi4.jpg"
       },
       {
         name: "น้ำตกเอราวัณ",
-        image: "/assets/image/kanchanaburi5.jpg"
+        image: "/project/zubapop/assets/image/kanchanaburi5.jpg"
       }
     ]
   },
@@ -147,23 +147,23 @@ const provinces = [
     places: [
       {
         name: "พิพิธภัณฑ์สิรินธร",
-        image: "/assets/image/kalasin1.jpg"
+        image: "/project/zubapop/assets/image/kalasin1.jpg"
       },
       {
         name: "อุทยานแห่งชาติภูพาน",
-        image: "/assets/image/kalasin2.jpg"
+        image: "/project/zubapop/assets/image/kalasin2.jpg"
       },
       {
         name: "เขื่อนลำปาว",
-        image: "/assets/image/kalasin3.jpg"
+        image: "/project/zubapop/assets/image/kalasin3.jpg"
       },
       {
         name: "วัดภูสิงห์",
-        image: "/assets/image/kalasin4.jpg"
+        image: "/project/zubapop/assets/image/kalasin4.jpg"
       },
       {
         name: "พระธาตุยาคู",
-        image: "/assets/image/kalasin5.jpg"
+        image: "/project/zubapop/assets/image/kalasin5.jpg"
       }
     ]
   },
@@ -191,23 +191,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานประวัติศาสตร์กำแพงเพชร",
-        image: "/assets/image/kb1.jpg"
+        image: "/project/zubapop/assets/image/kb1.jpg"
       },
       {
         name: "วัดพระแก้ว",
-        image: "/assets/image/kb2.jpg"
+        image: "/project/zubapop/assets/image/kb2.jpg"
       },
       {
         name: "วัดพระธาตุนครชุม",
-        image: "/assets/image/kb3.jpg"
+        image: "/project/zubapop/assets/image/kb3.jpg"
       },
       {
         name: "วัดพระสี่อิริยาบถ",
-        image: "/assets/image/kb4.jpeg"
+        image: "/project/zubapop/assets/image/kb4.jpeg"
       },
       {
         name: "วัดช้างรอบ",
-        image: "/assets/image/kb5.jpg"
+        image: "/project/zubapop/assets/image/kb5.jpg"
       }
     ]
 
@@ -236,23 +236,23 @@ const provinces = [
     places: [
       {
         name: "ศาลหลักเมืองขอนแก่น",
-        image: "/assets/image/khonkaen1.jpg"
+        image: "/project/zubapop/assets/image/khonkaen1.jpg"
       },
       {
         name: "วัดหนองแวง",
-        image: "/assets/image/khonkaen2.webp"
+        image: "/project/zubapop/assets/image/khonkaen2.webp"
       },
       {
         name: "วัดป่าแสงอรุณ",
-        image: "/assets/image/khonkaen3.jpeg"
+        image: "/project/zubapop/assets/image/khonkaen3.jpeg"
       },
       {
         name: "อุทยานแห่งชาติน้ำพอง",
-        image: "/assets/image/khonkaen4.jpg"
+        image: "/project/zubapop/assets/image/khonkaen4.jpg"
       },
       {
         name: "บึงแก่นนคร",
-        image: "/assets/image/khonkaen5.jpg"
+        image: "/project/zubapop/assets/image/khonkaen5.jpg"
       }
     ]
   },
@@ -280,23 +280,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติน้ำตกพลิ้ว",
-        image: "/assets/image/chanthaburi1.jpg"
+        image: "/project/zubapop/assets/image/chanthaburi1.jpg"
       },
       {
         name: "หาดเจ้าหลาว",
-        image: "/assets/image/chanthaburi2.jpg"
+        image: "/project/zubapop/assets/image/chanthaburi2.jpg"
       },
       {
         name: "หาดคุ้งวิมาน",
-        image: "/assets/image/chanthaburi3.jpg"
+        image: "/project/zubapop/assets/image/chanthaburi3.jpg"
       },
       {
         name: "หาดแหลมสิงห์",
-        image: "/assets/image/chanthaburi4.jpg"
+        image: "/project/zubapop/assets/image/chanthaburi4.jpg"
       },
       {
         name: "วัดปากน้ำแขมหนู",
-        image: "/assets/image/chanthaburi5.jpg"
+        image: "/project/zubapop/assets/image/chanthaburi5.jpg"
       }
     ]
   },
@@ -328,23 +328,23 @@ const provinces = [
     places: [
       {
         name: "วัดโสธรวรารามวรวิหาร",
-        image: "/assets/image/chachoengsao1.jpg"
+        image: "/project/zubapop/assets/image/chachoengsao1.jpg"
       },
       {
         name: "วัดสมานรัตนาราม",
-        image: "/assets/image/chachoengsao2.jpg"
+        image: "/project/zubapop/assets/image/chachoengsao2.jpg"
       },
       {
         name: "วัดปากน้ำโจ้โล้",
-        image: "/assets/image/chachoengsao3.jpg"
+        image: "/project/zubapop/assets/image/chachoengsao3.jpg"
       },
       {
         name: "ตลาดน้ำบางคล้า",
-        image: "/assets/image/chachoengsao4.jpeg"
+        image: "/project/zubapop/assets/image/chachoengsao4.jpeg"
       },
       {
         name: "วัดหงษ์ทอง",
-        image: "/assets/image/chachoengsao5.jpeg"
+        image: "/project/zubapop/assets/image/chachoengsao5.jpeg"
       }
     ]
   },
@@ -374,23 +374,23 @@ const provinces = [
     places: [
       {
         name: "หาดบางแสน",
-        image: "/assets/image/chonburi1.webp"
+        image: "/project/zubapop/assets/image/chonburi1.webp"
       },
       {
         name: "หาดพัทยา",
-        image: "/assets/image/chonburi2.webp"
+        image: "/project/zubapop/assets/image/chonburi2.webp"
       },
       {
         name: "เขาสามมุก",
-        image: "/assets/image/chonburi3.jpg"
+        image: "/project/zubapop/assets/image/chonburi3.jpg"
       },
       {
         name: "เกาะล้าน",
-        image: "/assets/image/chonburi4.jpg"
+        image: "/project/zubapop/assets/image/chonburi4.jpg"
       },
       {
         name: "เกาะสีชัง",
-        image: "/assets/image/chonburi5.jpg"
+        image: "/project/zubapop/assets/image/chonburi5.jpg"
       }
     ]
   },
@@ -420,23 +420,23 @@ const provinces = [
     places: [
       {
         name: "เขื่อนเจ้าพระยา",
-        image: "/assets/image/chainat1.jpeg"
+        image: "/project/zubapop/assets/image/chainat1.jpeg"
       },
       {
         name: "วัดพระบรมธาตุวรวิหาร",
-        image: "/assets/image/chainat2.jpeg"
+        image: "/project/zubapop/assets/image/chainat2.jpeg"
       },
       {
         name: "วัดปากคลองมะขามเฒ่า",
-        image: "/assets/image/chainat3.jpeg"
+        image: "/project/zubapop/assets/image/chainat3.jpeg"
       },
       {
         name: "สวนนกชัยนาท",
-        image: "/assets/image/chainat4.jpeg"
+        image: "/project/zubapop/assets/image/chainat4.jpeg"
       },
       {
         name: "สวนพฤกษศาสตร์วรรณคดีภาคกลาง",
-        image: "/assets/image/chainat5.jpg"
+        image: "/project/zubapop/assets/image/chainat5.jpg"
       }
     ]
   },
@@ -464,23 +464,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติไทรทอง",
-        image: "/assets/image/chaiyaphum1.jpg"
+        image: "/project/zubapop/assets/image/chaiyaphum1.jpg"
       },
       {
         name: "อุทยานแห่งชาติป่าหินงาม",
-        image: "/assets/image/chaiyaphum2.jpg"
+        image: "/project/zubapop/assets/image/chaiyaphum2.jpg"
       },
       {
         name: "น้ำตกไทรทอง",
-        image: "/assets/image/chaiyaphum3.jpg"
+        image: "/project/zubapop/assets/image/chaiyaphum3.jpg"
       },
       {
         name: "ผาหำหด",
-        image: "/assets/image/chaiyaphum4.jpg"
+        image: "/project/zubapop/assets/image/chaiyaphum4.jpg"
       },
       {
         name: "ผาพ่อเมือง",
-        image: "/assets/image/chaiyaphum5.jpg"
+        image: "/project/zubapop/assets/image/chaiyaphum5.jpg"
       }
     ]
   },
@@ -508,23 +508,23 @@ const provinces = [
     places: [
       {
         name: "หาดทรายรี",
-        image: "/assets/image/chumphon1.jpg"
+        image: "/project/zubapop/assets/image/chumphon1.jpg"
       },
       {
         name: "หาดทุ่งวัวแล่น",
-        image: "/assets/image/chumphon2.jpg"
+        image: "/project/zubapop/assets/image/chumphon2.jpg"
       },
       {
         name: "หาดภราดรภาพ",
-        image: "/assets/image/chumphon3.jpg"
+        image: "/project/zubapop/assets/image/chumphon3.jpg"
       },
       {
         name: "หมู่เกาะชุมพร",
-        image: "/assets/image/chumphon4.jpeg"
+        image: "/project/zubapop/assets/image/chumphon4.jpeg"
       },
       {
         name: "ศาลหลักเมืองชุมพร",
-        image: "/assets/image/chumphon5.jpg"
+        image: "/project/zubapop/assets/image/chumphon5.jpg"
       }
     ]
   },
@@ -553,23 +553,23 @@ const provinces = [
     places: [
       {
         name: "ดอยตุง",
-        image: "/assets/image/chiangrai1.jpg"
+        image: "/project/zubapop/assets/image/chiangrai1.jpg"
       },
       {
         name: "ภูชี้ฟ้า",
-        image: "/assets/image/chiangrai2.jpg"
+        image: "/project/zubapop/assets/image/chiangrai2.jpg"
       },
       {
         name: "สวนแม่ฟ้าหลวง",
-        image: "/assets/image/chiangrai3.jpg"
+        image: "/project/zubapop/assets/image/chiangrai3.jpg"
       },
       {
         name: "ไร่ชาฉุยฟง",
-        image: "/assets/image/chiangrai4.jpg"
+        image: "/project/zubapop/assets/image/chiangrai4.jpg"
       },
       {
         name: "วัดร่องขุ่น",
-        image: "/assets/image/chiangrai5.jpg"
+        image: "/project/zubapop/assets/image/chiangrai5.jpg"
       }
     ]
   },
@@ -598,23 +598,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระธาตุดอยสุเทพราชวรวิหาร",
-        image: "/assets/image/chiangmai1.jpg"
+        image: "/project/zubapop/assets/image/chiangmai1.jpg"
       },
       {
         name: "วัดเจดีย์หลวงวรวิหาร",
-        image: "/assets/image/chiangmai2.jpg"
+        image: "/project/zubapop/assets/image/chiangmai2.jpg"
       },
       {
         name: "วัดพระสิงห์วรมหาวิหาร",
-        image: "/assets/image/chiangmai3.jpg"
+        image: "/project/zubapop/assets/image/chiangmai3.jpg"
       },
       {
         name: "ดอยอินทนนท์",
-        image: "/assets/image/chiangmai4.webp"
+        image: "/project/zubapop/assets/image/chiangmai4.webp"
       },
       {
         name: "อุทยานแห่งชาติดอยสุเทพ-ปุย",
-        image: "/assets/image/chiangmai5.jpg"
+        image: "/project/zubapop/assets/image/chiangmai5.jpg"
       }
     ]
   },
@@ -631,23 +631,23 @@ const provinces = [
     places: [
       {
         name: "เกาะมุก ถ้ำมรกต",
-        image: "/assets/image/trang1.jpeg"
+        image: "/project/zubapop/assets/image/trang1.jpeg"
       },
       {
         name: "เกาะไหง",
-        image: "/assets/image/trang2.jpeg"
+        image: "/project/zubapop/assets/image/trang2.jpeg"
       },
       {
         name: "เกาะกระดาน",
-        image: "/assets/image/trang3.jpeg"
+        image: "/project/zubapop/assets/image/trang3.jpeg"
       },
       {
         name: "น้ำตกโตนเต๊ะ",
-        image: "/assets/image/trang4.jpg"
+        image: "/project/zubapop/assets/image/trang4.jpg"
       },
       {
         name: "ถ้ำเลเขากอบ",
-        image: "/assets/image/trang5.jpg"
+        image: "/project/zubapop/assets/image/trang5.jpg"
       }
     ]
   },
@@ -661,23 +661,23 @@ const provinces = [
     places: [
       {
         name: "เกาะช้าง",
-        image: "/assets/image/trat1.jpg"
+        image: "/project/zubapop/assets/image/trat1.jpg"
       },
       {
         name: "น้ำตกคลองพลู",
-        image: "/assets/image/trat2.jpg"
+        image: "/project/zubapop/assets/image/trat2.jpg"
       },
       {
         name: "จุดชมวิวไก่แบ้",
-        image: "/assets/image/trat3.jpg"
+        image: "/project/zubapop/assets/image/trat3.jpg"
       },
       {
         name: "เกาะกูด",
-        image: "/assets/image/trat4.jpg"
+        image: "/project/zubapop/assets/image/trat4.jpg"
       },
       {
         name: "อุทยานแห่งชาติหมู่เกาะช้าง",
-        image: "/assets/image/trat5.jpeg"
+        image: "/project/zubapop/assets/image/trat5.jpeg"
       }
     ]
   },
@@ -691,23 +691,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติตากสินมหาราช",
-        image: "/assets/image/tak1.jpg"
+        image: "/project/zubapop/assets/image/tak1.jpg"
       },
       {
         name: "บ่อน้ำร้อนแม่กาษา",
-        image: "/assets/image/tak2.jpg"
+        image: "/project/zubapop/assets/image/tak2.jpg"
       },
       {
         name: "วัดพระบรมธาตุบ้านตาก",
-        image: "/assets/image/tak3.jpeg"
+        image: "/project/zubapop/assets/image/tak3.jpeg"
       },
       {
         name: "น้ำตกทีลอซู",
-        image: "/assets/image/tak4.png"
+        image: "/project/zubapop/assets/image/tak4.png"
       },
       {
         name: "น้ำตกป่าหวาย",
-        image: "/assets/image/tak5.jpeg"
+        image: "/project/zubapop/assets/image/tak5.jpeg"
       }
     ]
   },
@@ -721,23 +721,23 @@ const provinces = [
     places: [
       {
         name: "น้ำตกสาริกา",
-        image: "/assets/image/nakornnayok1.jpg"
+        image: "/project/zubapop/assets/image/nakornnayok1.jpg"
       },
       {
         name: "น้ำตกนางรอง",
-        image: "/assets/image/nakornnayok2.jpg"
+        image: "/project/zubapop/assets/image/nakornnayok2.jpg"
       },
       {
         name: "พิพิธภัณฑ์พื้นบ้าน",
-        image: "/assets/image/nakornnayok3.jpg"
+        image: "/project/zubapop/assets/image/nakornnayok3.jpg"
       },
       {
         name: "อุทยานพระพิฆเนศ",
-        image: "/assets/image/nakornnayok4.webp"
+        image: "/project/zubapop/assets/image/nakornnayok4.webp"
       },
       {
         name: "อุทยานแห่งชาติดอยสุเทพ-ปุย",
-        image: "/assets/image/nakornnayok5.jpg"
+        image: "/project/zubapop/assets/image/nakornnayok5.jpg"
       }
     ]
 
@@ -752,23 +752,23 @@ const provinces = [
     places: [
       {
         name: "พระปฐมเจดีย์",
-        image: "/assets/image/nakornpratum1.jpg"
+        image: "/project/zubapop/assets/image/nakornpratum1.jpg"
       },
       {
         name: "สวนสามพราน",
-        image: "/assets/image/nakornpratum2.jpg"
+        image: "/project/zubapop/assets/image/nakornpratum2.jpg"
       },
       {
         name: "พระราชวังสนามจันทร์",
-        image: "/assets/image/nakornpratum3.jpg"
+        image: "/project/zubapop/assets/image/nakornpratum3.jpg"
       },
       {
         name: "ตลาดท่านา",
-        image: "/assets/image/nakornpratum4.jpg"
+        image: "/project/zubapop/assets/image/nakornpratum4.jpg"
       },
       {
         name: "พิพิธภัณฑ์หุ่นขี้ผึ้งไทย",
-        image: "/assets/image/nakornpratum5.jpg"
+        image: "/project/zubapop/assets/image/nakornpratum5.jpg"
       }
     ]
   },
@@ -782,23 +782,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระธาตุพนมวรมหาวิหาร",
-        image: "/assets/image/nakhonphanom1.jpg"
+        image: "/project/zubapop/assets/image/nakhonphanom1.jpg"
       },
       {
         name: "วัดพระธาตุเรณูนคร",
-        image: "/assets/image/nakhonphanom2.jpeg"
+        image: "/project/zubapop/assets/image/nakhonphanom2.jpeg"
       },
       {
         name: "วัดมหาธาตุ",
-        image: "/assets/image/nakhonphanom3.jpg"
+        image: "/project/zubapop/assets/image/nakhonphanom3.jpg"
       },
       {
         name: "ภูผาเทิบ",
-        image: "/assets/image/nakhonphanom4.webp"
+        image: "/project/zubapop/assets/image/nakhonphanom4.webp"
       },
       {
         name: "แก่งกะเบา",
-        image: "/assets/image/nakhonphanom5.jpg"
+        image: "/project/zubapop/assets/image/nakhonphanom5.jpg"
       }
     ]
   },
@@ -812,23 +812,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติเขาใหญ่",
-        image: "/assets/image/nakhonratchasima1.jpg"
+        image: "/project/zubapop/assets/image/nakhonratchasima1.jpg"
       },
       {
         name: "อุทยานแห่งชาติทับลาน",
-        image: "/assets/image/nakhonratchasima2.jpg"
+        image: "/project/zubapop/assets/image/nakhonratchasima2.jpg"
       },
       {
         name: "เขื่อนลำตะคอง",
-        image: "/assets/image/nakhonratchasima3.jpg"
+        image: "/project/zubapop/assets/image/nakhonratchasima3.jpg"
       },
       {
         name: "อนุสาวรีย์ท้าวสุรนารี",
-        image: "/assets/image/nakhonratchasima4.jpg"
+        image: "/project/zubapop/assets/image/nakhonratchasima4.jpg"
       },
       {
         name: "ปราสาทหินพิมาย",
-        image: "/assets/image/nakhonratchasima5.jpg"
+        image: "/project/zubapop/assets/image/nakhonratchasima5.jpg"
       }
     ]
   },
@@ -842,23 +842,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระมหาธาตุวรมหาวิหาร",
-        image: "/assets/image/nakhonsithammarat1.jpg"
+        image: "/project/zubapop/assets/image/nakhonsithammarat1.jpg"
       },
       {
         name: "วัดเจดีย์ไอ้ไข่",
-        image: "/assets/image/nakhonsithammarat2.jpg"
+        image: "/project/zubapop/assets/image/nakhonsithammarat2.jpg"
       },
       {
         name: "วัดพระธาตุ",
-        image: "/assets/image/nakhonsithammarat3.jpg"
+        image: "/project/zubapop/assets/image/nakhonsithammarat3.jpg"
       },
       {
         name: "อุทยานแห่งชาติเขาหลวง",
-        image: "/assets/image/nakhonsithammarat4.jpg"
+        image: "/project/zubapop/assets/image/nakhonsithammarat4.jpg"
       },
       {
         name: "น้ำตกโยง",
-        image: "/assets/image/nakhonsithammarat5.jpeg"
+        image: "/project/zubapop/assets/image/nakhonsithammarat5.jpeg"
       }
     ]
   },
@@ -872,23 +872,23 @@ const provinces = [
     places: [
       {
         name: "บึงบอระเพ็ด",
-        image: "/assets/image/nakhonsawan1.jpg"
+        image: "/project/zubapop/assets/image/nakhonsawan1.jpg"
       },
       {
         name: "อุทยานแห่งชาติแม่วงก์",
-        image: "/assets/image/nakhonsawan2.webp"
+        image: "/project/zubapop/assets/image/nakhonsawan2.webp"
       },
       {
         name: "วัดคีรีวงศ์",
-        image: "/assets/image/nakhonsawan3.jpg"
+        image: "/project/zubapop/assets/image/nakhonsawan3.jpg"
       },
       {
         name: "ศาลหลักเมืองนครสวรรค์",
-        image: "/assets/image/nakhonsawan4.jpg"
+        image: "/project/zubapop/assets/image/nakhonsawan4.jpg"
       },
       {
         name: "พิพิธภัณฑสถานแห่งชาตินครสวรรค์",
-        image: "/assets/image/nakhonsawan5.jpg"
+        image: "/project/zubapop/assets/image/nakhonsawan5.jpg"
       }
     ]
   },
@@ -902,23 +902,23 @@ const provinces = [
     places: [
       {
         name: "วัดเฉลิมพระเกียรติวรวิหาร",
-        image: "/assets/image/nonthaburi1.jpg"
+        image: "/project/zubapop/assets/image/nonthaburi1.jpg"
       },
       {
         name: "ตลาดน้ำวัดตะเคียน",
-        image: "/assets/image/nonthaburi2.jpg"
+        image: "/project/zubapop/assets/image/nonthaburi2.jpg"
       },
       {
         name: "วัดเขมาภิรตารามราชวรวิหาร",
-        image: "/assets/image/nonthaburi3.webp"
+        image: "/project/zubapop/assets/image/nonthaburi3.webp"
       },
       {
         name: "พิพิธภัณฑ์สถานแห่งชาติ เรือนไทยนนทบุรี",
-        image: "/assets/image/nonthaburi4.jpg"
+        image: "/project/zubapop/assets/image/nonthaburi4.jpg"
       },
       {
         name: "เกาะเกร็ด",
-        image: "/assets/image/nonthaburi5.jpg"
+        image: "/project/zubapop/assets/image/nonthaburi5.jpg"
       }
     ]
   },
@@ -932,23 +932,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติบูโด-สุไหงปาดี",
-        image: "/assets/image/narathiwat1.jpg"
+        image: "/project/zubapop/assets/image/narathiwat1.jpg"
       },
       {
         name: "น้ำตกสิรินธร",
-        image: "/assets/image/narathiwat2.jpg"
+        image: "/project/zubapop/assets/image/narathiwat2.jpg"
       },
       {
         name: "หาดนราทัศน์",
-        image: "/assets/image/narathiwat3.jpeg"
+        image: "/project/zubapop/assets/image/narathiwat3.jpeg"
       },
       {
         name: "ศาลเจ้าพ่อโต๊ะโมะ",
-        image: "/assets/image/narathiwat4.jpeg"
+        image: "/project/zubapop/assets/image/narathiwat4.jpeg"
       },
       {
         name: "มัสยิดกลางจังหวัดนราธิวาส",
-        image: "/assets/image/narathiwat5.jpg"
+        image: "/project/zubapop/assets/image/narathiwat5.jpg"
       }
     ]
   },
@@ -962,23 +962,23 @@ const provinces = [
     places: [
       {
         name: "วัดภูมินทร์",
-        image: "/assets/image/nan1.jpg"
+        image: "/project/zubapop/assets/image/nan1.jpg"
       },
       {
         name: "วัดพระธาตุแช่แห้ง",
-        image: "/assets/image/nan2.jpg"
+        image: "/project/zubapop/assets/image/nan2.jpg"
       },
       {
         name: "วัดพระธาตุเขาน้อย",
-        image: "/assets/image/nan3.jpg"
+        image: "/project/zubapop/assets/image/nan3.jpg"
       },
       {
         name: "ดอยเสมอดาว",
-        image: "/assets/image/nan4.jpg"
+        image: "/project/zubapop/assets/image/nan4.jpg"
       },
       {
         name: "อุทยานแห่งชาติดอยภูคา",
-        image: "/assets/image/nan5.png"
+        image: "/project/zubapop/assets/image/nan5.png"
       }
     ]
   },
@@ -992,23 +992,23 @@ const provinces = [
     places: [
       {
         name: "วัดภูทอก",
-        image: "/assets/image/buengkan1.jpg"
+        image: "/project/zubapop/assets/image/buengkan1.jpg"
       },
       {
         name: "วัดอาฮงศิลาวาส",
-        image: "/assets/image/buengkan2.jpg"
+        image: "/project/zubapop/assets/image/buengkan2.jpg"
       },
       {
         name: "ถ้ำนาคา",
-        image: "/assets/image/buengkan3.jpg"
+        image: "/project/zubapop/assets/image/buengkan3.jpg"
       },
       {
         name: "แก่งอาฮง",
-        image: "/assets/image/buengkan4.jpg"
+        image: "/project/zubapop/assets/image/buengkan4.jpg"
       },
       {
         name: "น้ำตกถ้ำพระ",
-        image: "/assets/image/buengkan5.jpg"
+        image: "/project/zubapop/assets/image/buengkan5.jpg"
       }
     ]
   },
@@ -1022,23 +1022,23 @@ const provinces = [
     places: [
       {
         name: "ปราสาทหินพนมรุ้ง",
-        image: "/assets/image/buriram1.jpg"
+        image: "/project/zubapop/assets/image/buriram1.jpg"
       },
       {
         name: "ปราสาทเมืองต่ำ",
-        image: "/assets/image/buriram2.jpg"
+        image: "/project/zubapop/assets/image/buriram2.jpg"
       },
       {
         name: "สนามฟุตบอล ช้างอารีนา",
-        image: "/assets/image/buriram3.jpg"
+        image: "/project/zubapop/assets/image/buriram3.jpg"
       },
       {
         name: "วนอุทยานเขากระโดง",
-        image: "/assets/image/buriram4.jpg"
+        image: "/project/zubapop/assets/image/buriram4.jpg"
       },
       {
         name: "เขื่อนลำนางรอง",
-        image: "/assets/image/buriram5.jpg"
+        image: "/project/zubapop/assets/image/buriram5.jpg"
       }
     ]
   },
@@ -1052,23 +1052,23 @@ const provinces = [
     places: [
       {
         name: "ตลาดน้ำวัดศาลเจ้า",
-        image: "/assets/image/pathumthani1.webp"
+        image: "/project/zubapop/assets/image/pathumthani1.webp"
       },
       {
         name: "ตลาดน้ำคลองรังสิต",
-        image: "/assets/image/pathumthani2.jpg"
+        image: "/project/zubapop/assets/image/pathumthani2.jpg"
       },
       {
         name: "สวนพฤกษศาสตร์",
-        image: "/assets/image/pathumthani3.jpg"
+        image: "/project/zubapop/assets/image/pathumthani3.jpg"
       },
       {
         name: "วัดโบสถ์",
-        image: "/assets/image/pathumthani4.jpg"
+        image: "/project/zubapop/assets/image/pathumthani4.jpg"
       },
       {
         name: "วัดไผ่ล้อม",
-        image: "/assets/image/pathumthani5.jpg"
+        image: "/project/zubapop/assets/image/pathumthani5.jpg"
       }
     ]
   },
@@ -1082,23 +1082,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติเขาสามร้อยยอด",
-        image: "/assets/image/prachuapkhirikhan1.jpg"
+        image: "/project/zubapop/assets/image/prachuapkhirikhan1.jpg"
       },
       {
         name: "อุทยานแห่งชาติกุยบุรี",
-        image: "/assets/image/prachuapkhirikhan2.jpg"
+        image: "/project/zubapop/assets/image/prachuapkhirikhan2.jpg"
       },
       {
         name: "อุทยานแห่งชาติแก่งกระจาน",
-        image: "/assets/image/prachuapkhirikhan3.jpg"
+        image: "/project/zubapop/assets/image/prachuapkhirikhan3.jpg"
       },
       {
         name: "พระราชนิเวศน์มฤคทายวัน  ",
-        image: "/assets/image/prachuapkhirikhan4.jpg"
+        image: "/project/zubapop/assets/image/prachuapkhirikhan4.jpg"
       },
       {
         name: "เขาหินเหล็กไฟ",
-        image: "/assets/image/prachuapkhirikhan5.jpg"
+        image: "/project/zubapop/assets/image/prachuapkhirikhan5.jpg"
       }
     ]
   },
@@ -1112,23 +1112,23 @@ const provinces = [
     places: [
       {
         name: "น้ำตกเหวอีอ่ำ",
-        image: "/assets/image/prachinburi1.jpg"
+        image: "/project/zubapop/assets/image/prachinburi1.jpg"
       },
       {
         name: "เมืองโบราณศรีมโหสถ",
-        image: "/assets/image/prachinburi2.jpg"
+        image: "/project/zubapop/assets/image/prachinburi2.jpg"
       },
       {
         name: "พิพิธภัณฑสถานแห่งชาติปราจีนบุรี",
-        image: "/assets/image/prachinburi3.jpg"
+        image: "/project/zubapop/assets/image/prachinburi3.jpg"
       },
       {
         name: "อุทยานแห่งชาติทับลาน",
-        image: "/assets/image/prachinburi4.jpg"
+        image: "/project/zubapop/assets/image/prachinburi4.jpg"
       },
       {
         name: "พิพิธภัณฑ์การแพทย์แผนไทยอภัยภูเบศร",
-        image: "/assets/image/prachinburi5.jpg"
+        image: "/project/zubapop/assets/image/prachinburi5.jpg"
       }
     ]
   },
@@ -1142,23 +1142,23 @@ const provinces = [
     places: [
       {
         name: "มัสยิดกรือเซะ",
-        image: "/assets/image/pattani1.jpg"
+        image: "/project/zubapop/assets/image/pattani1.jpg"
       },
       {
         name: "ศาลเจ้าแม่ลิ้มกอเหนี่ยว",
-        image: "/assets/image/pattani2.webp"
+        image: "/project/zubapop/assets/image/pattani2.webp"
       },
       {
         name: "วัดพระสิงห์วรมหาวิหาร",
-        image: "/assets/image/pattani3.jpg"
+        image: "/project/zubapop/assets/image/pattani3.jpg"
       },
       {
         name: "ดอยอินทนนท์",
-        image: "/assets/image/pattani4.jpg"
+        image: "/project/zubapop/assets/image/pattani4.jpg"
       },
       {
         name: "อุทยานแห่งชาติดอยสุเทพ-ปุย",
-        image: "/assets/image/pattani5.jpg"
+        image: "/project/zubapop/assets/image/pattani5.jpg"
       }
     ]
   },
@@ -1172,23 +1172,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระศรีสรรเพชญ์",
-        image: "/assets/image/ayutthaya1.jpg"
+        image: "/project/zubapop/assets/image/ayutthaya1.jpg"
       },
       {
         name: "วัดมหาธาตุ",
-        image: "/assets/image/ayutthaya2.jpg"
+        image: "/project/zubapop/assets/image/ayutthaya2.jpg"
       },
       {
         name: "วัดราชบูรณะ",
-        image: "/assets/image/ayutthaya3.jpg"
+        image: "/project/zubapop/assets/image/ayutthaya3.jpg"
       },
       {
         name: "วัดไชยวัฒนาราม",
-        image: "/assets/image/ayutthaya4.jpg"
+        image: "/project/zubapop/assets/image/ayutthaya4.jpg"
       },
       {
         name: "พระราชวังบางปะอิน",
-        image: "/assets/image/ayutthaya5.jpg"
+        image: "/project/zubapop/assets/image/ayutthaya5.jpg"
       }
     ]
   },
@@ -1202,23 +1202,23 @@ const provinces = [
     places: [
       {
         name: "เกาะปันหยี",
-        image: "/assets/image/phangnga1.jpg"
+        image: "/project/zubapop/assets/image/phangnga1.jpg"
       },
       {
         name: "กาะสิมิลัน",
-        image: "/assets/image/phangnga2.jpg"
+        image: "/project/zubapop/assets/image/phangnga2.jpg"
       },
       {
         name: "ถ้ำลอด",
-        image: "/assets/image/phangnga3.jpeg"
+        image: "/project/zubapop/assets/image/phangnga3.jpeg"
       },
       {
         name: "อุทยานแห่งชาติเขาสก",
-        image: "/assets/image/phangnga4.jpg"
+        image: "/project/zubapop/assets/image/phangnga4.jpg"
       },
       {
         name: "เกาะตาชัย",
-        image: "/assets/image/phangnga5.webp"
+        image: "/project/zubapop/assets/image/phangnga5.webp"
       }
     ]
   },
@@ -1232,23 +1232,23 @@ const provinces = [
     places: [
       {
         name: "ทะเลน้อย พัทลุง",
-        image: "/assets/image/phatthalung1.jpg"
+        image: "/project/zubapop/assets/image/phatthalung1.jpg"
       },
       {
         name: "อุทยานแห่งชาติเขาปู่-เขาย่า",
-        image: "/assets/image/phatthalung2.jpg"
+        image: "/project/zubapop/assets/image/phatthalung2.jpg"
       },
       {
         name: "น้ำตกไพรวัลย์",
-        image: "/assets/image/phatthalung3.jpeg"
+        image: "/project/zubapop/assets/image/phatthalung3.jpeg"
       },
       {
         name: "วัดเขียนบางแก้ว",
-        image: "/assets/image/phatthalung4.jpeg"
+        image: "/project/zubapop/assets/image/phatthalung4.jpeg"
       },
       {
         name: "ภูเขาอกทะลุ",
-        image: "/assets/image/phatthalung5.jpg"
+        image: "/project/zubapop/assets/image/phatthalung5.jpg"
       }
     ]
   },
@@ -1262,23 +1262,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานประวัติศาสตร์ศรีสัชนาลัย",
-        image: "/assets/image/phichit1.jpg"
+        image: "/project/zubapop/assets/image/phichit1.jpg"
       },
       {
         name: "วัดสว่างอารมณ์ พิจิตร",
-        image: "/assets/image/phichit2.webp"
+        image: "/project/zubapop/assets/image/phichit2.webp"
       },
       {
         name: "น้ำตกวังน้ำเขียว",
-        image: "/assets/image/phichit3.jpg"
+        image: "/project/zubapop/assets/image/phichit3.jpg"
       },
       {
         name: "บึงสีไฟ",
-        image: "/assets/image/phichit4.webp"
+        image: "/project/zubapop/assets/image/phichit4.webp"
       },
       {
         name: "สวนสมเด็จพระศรีนครินทร์ พิจิตร",
-        image: "/assets/image/phichit5.jpg"
+        image: "/project/zubapop/assets/image/phichit5.jpg"
       }
     ]
   },
@@ -1292,23 +1292,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระศรีรัตนมหาธาตุวรมหาวิหาร",
-        image: "/assets/image/phitsanulok1.jpg"
+        image: "/project/zubapop/assets/image/phitsanulok1.jpg"
       },
       {
         name: "สวนพฤกษศาสตร์บ้านร่มเกล้า พิษณุโลก",
-        image: "/assets/image/phitsanulok2.jpg"
+        image: "/project/zubapop/assets/image/phitsanulok2.jpg"
       },
       {
         name: "อุทยานแห่งชาติทุ่งแสลงหลวง",
-        image: "/assets/image/phitsanulok3.jpg"
+        image: "/project/zubapop/assets/image/phitsanulok3.jpg"
       },
       {
         name: "น้ำตกแก่งโสภา",
-        image: "/assets/image/phitsanulok4.jpeg"
+        image: "/project/zubapop/assets/image/phitsanulok4.jpeg"
       },
       {
         name: "บึงราชนก",
-        image: "/assets/image/phitsanulok5.jpg"
+        image: "/project/zubapop/assets/image/phitsanulok5.jpg"
       }
     ]
   },
@@ -1322,23 +1322,23 @@ const provinces = [
     places: [
       {
         name: "พระนครคีรี (เขาวัง)",
-        image: "/assets/image/phetchaburi1.jpg"
+        image: "/project/zubapop/assets/image/phetchaburi1.jpg"
       },
       {
         name: "วัดมหาธาตุวรวิหาร",
-        image: "/assets/image/phetchaburi2.jpg"
+        image: "/project/zubapop/assets/image/phetchaburi2.jpg"
       },
       {
         name: "อุทยานแห่งชาติแก่งกระจาน",
-        image: "/assets/image/phetchaburi3.jpg"
+        image: "/project/zubapop/assets/image/phetchaburi3.jpg"
       },
       {
         name: "หาดชะอำ",
-        image: "/assets/image/phetchaburi4.jpg"
+        image: "/project/zubapop/assets/image/phetchaburi4.jpg"
       },
       {
         name: "โครงการชั่งหัวมัน ตามพระราชดำริ",
-        image: "/assets/image/phetchaburi5.jpg"
+        image: "/project/zubapop/assets/image/phetchaburi5.jpg"
       }
     ]
   },
@@ -1352,23 +1352,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติเขาค้อ",
-        image: "/assets/image/phetchabun1.jpg"
+        image: "/project/zubapop/assets/image/phetchabun1.jpg"
       },
       {
         name: "ภูทับเบิก",
-        image: "/assets/image/phetchabun2.jpg"
+        image: "/project/zubapop/assets/image/phetchabun2.jpg"
       },
       {
         name: "น้ำหนาว",
-        image: "/assets/image/phetchabun3.jpg"
+        image: "/project/zubapop/assets/image/phetchabun3.jpg"
       },
       {
         name: "วัดพระธาตุผาซ่อนแก้ว",
-        image: "/assets/image/phetchabun4.jpg"
+        image: "/project/zubapop/assets/image/phetchabun4.jpg"
       },
       {
         name: "ตลาดน้ำกองพล",
-        image: "/assets/image/phetchabun5.jpg"
+        image: "/project/zubapop/assets/image/phetchabun5.jpg"
       }
     ]
   },
@@ -1382,23 +1382,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระธาตุช่อแฮ",
-        image: "/assets/image/Phrae1.webp"
+        image: "/project/zubapop/assets/image/Phrae1.webp"
       },
       {
         name: "คุ้มวงศ์บุรี",
-        image: "/assets/image/Phrae2.jpg"
+        image: "/project/zubapop/assets/image/Phrae2.jpg"
       },
       {
         name: "อุทยานแห่งชาติเวียงโกศัย",
-        image: "/assets/image/Phrae3.jpg"
+        image: "/project/zubapop/assets/image/Phrae3.jpg"
       },
       {
         name: "อุทยานแพะเมืองผี",
-        image: "/assets/image/Phrae4.jpg"
+        image: "/project/zubapop/assets/image/Phrae4.jpg"
       },
       {
         name: "น้ำตกแม่เกิ๋ง",
-        image: "/assets/image/Phrae5.jpg"
+        image: "/project/zubapop/assets/image/Phrae5.jpg"
       }
     ]
   },
@@ -1412,23 +1412,23 @@ const provinces = [
     places: [
       {
         name: "กว๊านพะเยา",
-        image: "/assets/image/phayao1.jpg"
+        image: "/project/zubapop/assets/image/phayao1.jpg"
       },
       {
         name: "อุทยานแห่งชาติภูซาง",
-        image: "/assets/image/phayao2.jpg"
+        image: "/project/zubapop/assets/image/phayao2.jpg"
       },
       {
         name: "วนอุทยานภูลังกา",
-        image: "/assets/image/phayao3.jpg"
+        image: "/project/zubapop/assets/image/phayao3.jpg"
       },
       {
         name: "วัดศรีโคมคำ",
-        image: "/assets/image/phayao4.jpg"
+        image: "/project/zubapop/assets/image/phayao4.jpg"
       },
       {
         name: "พิพิธภัณฑ์สถานแห่งชาติพะเยา",
-        image: "/assets/image/phayao5.jpg"
+        image: "/project/zubapop/assets/image/phayao5.jpg"
       }
     ]
   },
@@ -1442,23 +1442,23 @@ const provinces = [
     places: [
       {
         name: "เมืองเก่าภูเก็ต",
-        image: "/assets/image/phuket1.jpg"
+        image: "/project/zubapop/assets/image/phuket1.jpg"
       },
       {
         name: "พิพิธภัณฑ์ภูเก็ตไทยหัว",
-        image: "/assets/image/phuket2.jpeg"
+        image: "/project/zubapop/assets/image/phuket2.jpeg"
       },
       {
         name: "หาดป่าตอง",
-        image: "/assets/image/phuket3.jpg"
+        image: "/project/zubapop/assets/image/phuket3.jpg"
       },
       {
         name: "หาดกะรน",
-        image: "/assets/image/phuket4.jpg"
+        image: "/project/zubapop/assets/image/phuket4.jpg"
       },
       {
         name: "แหลมพรหมเทพ",
-        image: "/assets/image/phuket5.jpg"
+        image: "/project/zubapop/assets/image/phuket5.jpg"
       }
     ]
   },
@@ -1472,23 +1472,23 @@ const provinces = [
     places: [
       {
         name: "พระธาตุนาดูน",
-        image: "/assets/image/mahasarakham1.jpg"
+        image: "/project/zubapop/assets/image/mahasarakham1.jpg"
       },
       {
         name: "วัดป่าวังน้ำเย็น",
-        image: "/assets/image/mahasarakham2.jpg"
+        image: "/project/zubapop/assets/image/mahasarakham2.jpg"
       },
       {
         name: "พิพิธภัณฑ์มหาวิทยาลัยมหาสารคาม",
-        image: "/assets/image/mahasarakham3.jpg"
+        image: "/project/zubapop/assets/image/mahasarakham3.jpg"
       },
       {
         name: "บึงกุย",
-        image: "/assets/image/mahasarakham4.jpg"
+        image: "/project/zubapop/assets/image/mahasarakham4.jpg"
       },
       {
         name: "อุทยานแห่งชาติภูผาม่าน",
-        image: "/assets/image/mahasarakham5.jpg"
+        image: "/project/zubapop/assets/image/mahasarakham5.jpg"
       }
     ]
   },
@@ -1505,23 +1505,23 @@ const provinces = [
     places: [
       {
         name: "ตลาดอินโดจีน มุกดาหาร",
-        image: "/assets/image/mukdahan1.jpg"
+        image: "/project/zubapop/assets/image/mukdahan1.jpg"
       },
       {
         name: "วัดรอยพระพุทธบาทภูมโนรมย์",
-        image: "/assets/image/mukdahan2.jpg"
+        image: "/project/zubapop/assets/image/mukdahan2.jpg"
       },
       {
         name: "พิพิธภัณฑ์สถานแห่งชาติมุกดาหาร",
-        image: "/assets/image/mukdahan3.jpg"
+        image: "/project/zubapop/assets/image/mukdahan3.jpg"
       },
       {
         name: "ภูผายล",
-        image: "/assets/image/mukdahan4.jpg"
+        image: "/project/zubapop/assets/image/mukdahan4.jpg"
       },
       {
         name: "แก่งกะเบา",
-        image: "/assets/image/mukdahan5.jpeg"
+        image: "/project/zubapop/assets/image/mukdahan5.jpeg"
       }
     ]
   },
@@ -1535,23 +1535,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติถ้ำปลา-น้ำตกผาเสื่อ",
-        image: "/assets/image/mhs1.jpg"
+        image: "/project/zubapop/assets/image/mhs1.jpg"
       },
       {
         name: "พระธาตุดอยกองมู",
-        image: "/assets/image/mhs2.jpg"
+        image: "/project/zubapop/assets/image/mhs2.jpg"
       },
       {
         name: "วัดจองกลาง",
-        image: "/assets/image/mhs3.jpeg"
+        image: "/project/zubapop/assets/image/mhs3.jpeg"
       },
       {
         name: "ปางอุ๋ง แม่ฮ่องสอน",
-        image: "/assets/image/mhs4.jpg"
+        image: "/project/zubapop/assets/image/mhs4.jpg"
       },
       {
         name: "บ้านรักไทย",
-        image: "/assets/image/mhs5.webp"
+        image: "/project/zubapop/assets/image/mhs5.webp"
       }
     ]
   },
@@ -1565,23 +1565,23 @@ const provinces = [
     places: [
       {
         name: "เบตง",
-        image: "/assets/image/yala1.jpg"
+        image: "/project/zubapop/assets/image/yala1.jpg"
       },
       {
         name: "อุโมงค์ปิยะมิตร",
-        image: "/assets/image/yala2.jpg"
+        image: "/project/zubapop/assets/image/yala2.jpg"
       },
       {
         name: "มัสยิดกลางจังหวัดยะลา",
-        image: "/assets/image/yala3.jpg"
+        image: "/project/zubapop/assets/image/yala3.jpg"
       },
       {
         name: "น้ำตกธารโต",
-        image: "/assets/image/yala4.jpg"
+        image: "/project/zubapop/assets/image/yala4.jpg"
       },
       {
         name: "วัดคูหาภิมุข",
-        image: "/assets/image/yala5.jpg"
+        image: "/project/zubapop/assets/image/yala5.jpg"
       }
     ]
   },
@@ -1595,23 +1595,23 @@ const provinces = [
     places: [
       {
         name: "พระธาตุก่องข้าวน้อย",
-        image: "/assets/image/yasothon1.jpg"
+        image: "/project/zubapop/assets/image/yasothon1.jpg"
       },
       {
         name: "วัดมหาธาตุยโสธร",
-        image: "/assets/image/yasothon2.jpg"
+        image: "/project/zubapop/assets/image/yasothon2.jpg"
       },
       {
         name: "บ้านทุ่งแต้ (บ้านพญาคันคาก)",
-        image: "/assets/image/yasothon3.jpg"
+        image: "/project/zubapop/assets/image/yasothon3.jpg"
       },
       {
         name: "พระธาตุอานนท์",
-        image: "/assets/image/yasothon4.webp"
+        image: "/project/zubapop/assets/image/yasothon4.webp"
       },
       {
         name: "วัดพระพุทธบาทยโสธร",
-        image: "/assets/image/yasothon5.jpg"
+        image: "/project/zubapop/assets/image/yasothon5.jpg"
       }
     ]
   },
@@ -1625,23 +1625,23 @@ const provinces = [
     places: [
       {
         name: "บึงพลาญชัย",
-        image: "/assets/image/roiet.jpg"
+        image: "/project/zubapop/assets/image/roiet.jpg"
       },
       {
         name: "พระมหาเจดีย์ชัยมงคล",
-        image: "/assets/image/roiet2.jpg"
+        image: "/project/zubapop/assets/image/roiet2.jpg"
       },
       {
         name: "วัดบูรพาภิราม",
-        image: "/assets/image/roiet3.jpg"
+        image: "/project/zubapop/assets/image/roiet3.jpg"
       },
       {
         name: "ปราสาทกู่กาสิงห์",
-        image: "/assets/image/roiet4.jpeg"
+        image: "/project/zubapop/assets/image/roiet4.jpeg"
       },
       {
         name: "วัดผาน้ำย้อย",
-        image: "/assets/image/roiet5.jpg"
+        image: "/project/zubapop/assets/image/roiet5.jpg"
       }
     ]
   }, {
@@ -1654,23 +1654,23 @@ const provinces = [
     places: [
       {
         name: "บ่อน้ำร้อนและสวนสาธารณะรักษะวาริน",
-        image: "/assets/image/ranong1.jpg"
+        image: "/project/zubapop/assets/image/ranong1.jpg"
       },
       {
         name: "เกาะพยาม",
-        image: "/assets/image/ranong2.jpg"
+        image: "/project/zubapop/assets/image/ranong2.jpg"
       },
       {
         name: "น้ำตกปุญญบาล",
-        image: "/assets/image/chiangmai3.jpg"
+        image: "/project/zubapop/assets/image/chiangmai3.jpg"
       },
       {
         name: "อุทยานแห่งชาติลำน้ำกระบุรี",
-        image: "/assets/image/chiangmai4.jpg"
+        image: "/project/zubapop/assets/image/chiangmai4.jpg"
       },
       {
         name: "พระราชวังรัตนรังสรรค์",
-        image: "/assets/image/chiangmai5.jpeg"
+        image: "/project/zubapop/assets/image/chiangmai5.jpeg"
       }
     ]
   },
@@ -1684,23 +1684,23 @@ const provinces = [
     places: [
       {
         name: "เกาะเสม็ด",
-        image: "/assets/image/rayong1.jpg"
+        image: "/project/zubapop/assets/image/rayong1.jpg"
       },
       {
         name: "หาดแม่รำพึง",
-        image: "/assets/image/rayong2.jpg"
+        image: "/project/zubapop/assets/image/rayong2.jpg"
       },
       {
         name: "อุทยานแห่งชาติเขาแหลมหญ้า-หมู่เกาะเสม็ด",
-        image: "/assets/image/rayong3.jpeg"
+        image: "/project/zubapop/assets/image/rayong3.jpeg"
       },
       {
         name: "สวนพฤกษศาสตร์ระยอง",
-        image: "/assets/image/rayong4.jpg"
+        image: "/project/zubapop/assets/image/rayong4.jpg"
       },
       {
         name: "ทุ่งโปรงทอง",
-        image: "/assets/image/rayong5.jpg"
+        image: "/project/zubapop/assets/image/rayong5.jpg"
       }
     ]
   },
@@ -1714,23 +1714,23 @@ const provinces = [
     places: [
       {
         name: "ตลาดน้ำดำเนินสะดวก",
-        image: "/assets/image/ratchaburi1.webp"
+        image: "/project/zubapop/assets/image/ratchaburi1.webp"
       },
       {
         name: "อุทยานหินเขางู",
-        image: "/assets/image/ratchaburi2.jpg"
+        image: "/project/zubapop/assets/image/ratchaburi2.jpg"
       },
       {
         name: "ถ้ำเขาบิน",
-        image: "/assets/image/ratchaburi3.jpg"
+        image: "/project/zubapop/assets/image/ratchaburi3.jpg"
       },
       {
         name: "วัดมหาธาตุวรวิหาร",
-        image: "/assets/image/ratchaburi4.jpg"
+        image: "/project/zubapop/assets/image/ratchaburi4.jpg"
       },
       {
         name: "สวนผึ้ง ราชบุรี",
-        image: "/assets/image/ratchaburi5.jpg"
+        image: "/project/zubapop/assets/image/ratchaburi5.jpg"
       }
     ]
   },
@@ -1744,23 +1744,23 @@ const provinces = [
     places: [
       {
         name: "พระปรางค์สามยอด",
-        image: "/assets/image/lopburi1.jpg"
+        image: "/project/zubapop/assets/image/lopburi1.webp"
       },
       {
         name: "ศาลพระกาฬ",
-        image: "/assets/image/lopburi2.jpg"
+        image: "/project/zubapop/assets/image/lopburi2.jpg"
       },
       {
         name: "พระนารายณ์ราชนิเวศน์",
-        image: "/assets/image/lopburi3.jpg"
+        image: "/project/zubapop/assets/image/lopburi3.jpg"
       },
       {
         name: "เขาพระงาม",
-        image: "/assets/image/lopburi4.jpg"
+        image: "/project/zubapop/assets/image/lopburi4.jpg"
       },
       {
         name: "ทุ่งทานตะวัน ลพบุรี",
-        image: "/assets/image/lopburi5.jpg"
+        image: "/project/zubapop/assets/image/lopburi5.jpg"
       }
     ]
   },
@@ -1774,23 +1774,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระธาตุลำปางหลวง",
-        image: "/assets/image/lampang1.jpg"
+        image: "/project/zubapop/assets/image/lampang1.jpg"
       },
       {
         name: "กาดกองต้า (ถนนคนเดินลำปาง)",
-        image: "/assets/image/lampang2.jpg"
+        image: "/project/zubapop/assets/image/lampang2.jpg"
       },
       {
         name: "พิพิธภัณฑ์เซรามิกธนบดี",
-        image: "/assets/image/lampang3.jpg"
+        image: "/project/zubapop/assets/image/lampang3.jpg"
       },
       {
         name: "อุทยานแห่งชาติแจ้ซ้อน",
-        image: "/assets/image/lampang4.jpeg"
+        image: "/project/zubapop/assets/image/lampang4.jpeg"
       },
       {
         name: "วัดปงสนุก",
-        image: "/assets/image/lampang5.jpg"
+        image: "/project/zubapop/assets/image/lampang5.jpg"
       }
     ]
   },
@@ -1804,23 +1804,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระธาตุหริภุญชัย",
-        image: "/assets/image/lamphun1.jpg"
+        image: "/project/zubapop/assets/image/lamphun1.jpg"
       },
       {
         name: "วัดพระธาตุจอมทอง",
-        image: "/assets/image/lamphun2.jpg"
+        image: "/project/zubapop/assets/image/lamphun2.jpg"
       },
       {
         name: "ตลาดวโรรส",
-        image: "/assets/image/lamphun3.jpg"
+        image: "/project/zubapop/assets/image/lamphun3.jpg"
       },
       {
         name: "วัดศรีภูมิ",
-        image: "/assets/image/lamphun4.jpg"
+        image: "/project/zubapop/assets/image/lamphun4.jpg"
       },
       {
         name: "น้ำตกแม่สา",
-        image: "/assets/image/lamphun5.jpg"
+        image: "/project/zubapop/assets/image/lamphun5.jpg"
       }
     ]
   },
@@ -1834,23 +1834,23 @@ const provinces = [
     places: [
       {
         name: "ภูเรือ",
-        image: "/assets/image/loei1.webp"
+        image: "/project/zubapop/assets/image/loei1.webp"
       },
       {
         name: "น้ำตกศรีเชียงคาน",
-        image: "/assets/image/loei2.jpg"
+        image: "/project/zubapop/assets/image/loei2.jpg"
       },
       {
         name: "วัดศรีเทพ",
-        image: "/assets/image/loei3.jpg"
+        image: "/project/zubapop/assets/image/loei3.jpg"
       },
       {
         name: "อุทยานแห่งชาติภูกระดึง",
-        image: "/assets/image/loei4.jpg"
+        image: "/project/zubapop/assets/image/loei4.jpg"
       },
       {
         name: "ถ้ำเชียงคาน",
-        image: "/assets/image/loei5.jpg"
+        image: "/project/zubapop/assets/image/loei5.jpg"
       }
     ]
   },
@@ -1864,23 +1864,23 @@ const provinces = [
     places: [
       {
         name: "สวนสัตว์ศรีสะเกษ",
-        image: "/assets/image/ssk1.jpg"
+        image: "/project/zubapop/assets/image/ssk1.jpg"
       },
       {
         name: "ปราสาทหินเมืองต่ำ",
-        image: "/assets/image/ssk2.jpg"
+        image: "/project/zubapop/assets/image/ssk2.jpg"
       },
       {
         name: "น้ำตกห้วยแม่ขมิ้น",
-        image: "/assets/image/ssk3.jpeg"
+        image: "/project/zubapop/assets/image/ssk3.jpeg"
       },
       {
         name: "วัดไพรพัฒนา",
-        image: "/assets/image/ssk4.jpg"
+        image: "/project/zubapop/assets/image/ssk4.jpg"
       },
       {
         name: "วัดพระธาตุศรีสะเกษ",
-        image: "/assets/image/ssk5.webp"
+        image: "/project/zubapop/assets/image/ssk5.webp"
       }
     ]
   },
@@ -1894,23 +1894,23 @@ const provinces = [
     places: [
       {
         name: "พระธาตุเชิงชุม",
-        image: "/assets/image/sakonnakhon1.jpg"
+        image: "/project/zubapop/assets/image/sakonnakhon1.jpg"
       },
       {
         name: "อุทยานภูพาน",
-        image: "/assets/image/sakonnakhon2.jpg"
+        image: "/project/zubapop/assets/image/sakonnakhon2.jpg"
       },
       {
         name: "พิพิธภัณฑ์ภูพาน",
-        image: "/assets/image/sakonnakhon3.jpg"
+        image: "/project/zubapop/assets/image/sakonnakhon3.jpg"
       },
       {
         name: "บึงหนองหาน",
-        image: "/assets/image/sakonnakhon4.jpg"
+        image: "/project/zubapop/assets/image/sakonnakhon4.jpg"
       },
       {
         name: "วัดพระธาตุภูเพ็ก",
-        image: "/assets/image/sakonnakhon5.jpg"
+        image: "/project/zubapop/assets/image/sakonnakhon5.jpg"
       }
     ]
   },
@@ -1924,23 +1924,23 @@ const provinces = [
     places: [
       {
         name: "หาดสมิหลา",
-        image: "/assets/image/songkhla1.webp"
+        image: "/project/zubapop/assets/image/songkhla1.webp"
       },
       {
         name: "เกาะยอ",
-        image: "/assets/image/songkhla2.jpg"
+        image: "/project/zubapop/assets/image/songkhla2.jpg"
       },
       {
         name: "เขาตังกวน",
-        image: "/assets/image/songkhla3.jpg"
+        image: "/project/zubapop/assets/image/songkhla3.jpg"
       },
       {
         name: "พิพิธภัณฑ์สถานแห่งชาติสงขลา",
-        image: "/assets/image/songkhla4.png"
+        image: "/project/zubapop/assets/image/songkhla4.png"
       },
       {
         name: "ย่านเมืองเก่าสงขลา",
-        image: "/assets/image/songkhla5.jpg"
+        image: "/project/zubapop/assets/image/songkhla5.jpg"
       }
     ]
   },
@@ -1954,23 +1954,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติตะรุเตา",
-        image: "/assets/image/satun1.jpg"
+        image: "/project/zubapop/assets/image/satun1.jpg"
       },
       {
         name: "เกาะหลีเป๊ะ สตูล",
-        image: "/assets/image/satun2.jpg"
+        image: "/project/zubapop/assets/image/satun2.jpg"
       },
       {
         name: "เกาะอาดัง",
-        image: "/assets/image/satun3.jpg"
+        image: "/project/zubapop/assets/image/satun3.jpg"
       },
       {
         name: "เกาะราวี",
-        image: "/assets/image/satun4.jpg"
+        image: "/project/zubapop/assets/image/satun4.jpg"
       },
       {
         name: "เกาะไข่",
-        image: "/assets/image/satun5.jpg"
+        image: "/project/zubapop/assets/image/satun5.jpg"
       }
     ]
   },
@@ -1984,23 +1984,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระธาตุดอยสุเทพราชวรวิหาร",
-        image: "/assets/image/chiangmai1.jpg"
+        image: "/project/zubapop/assets/image/chiangmai1.jpg"
       },
       {
         name: "วัดเจดีย์หลวงวรวิหาร",
-        image: "/assets/image/chiangmai2.jpg"
+        image: "/project/zubapop/assets/image/chiangmai2.jpg"
       },
       {
         name: "วัดพระสิงห์วรมหาวิหาร",
-        image: "/assets/image/chiangmai3.jpg"
+        image: "/project/zubapop/assets/image/chiangmai3.jpg"
       },
       {
         name: "ดอยอินทนนท์",
-        image: "/assets/image/chiangmai4.webp"
+        image: "/project/zubapop/assets/image/chiangmai4.webp"
       },
       {
         name: "อุทยานแห่งชาติดอยสุเทพ-ปุย",
-        image: "/assets/image/chiangmai5.jpg"
+        image: "/project/zubapop/assets/image/chiangmai5.jpg"
       }
     ]
   },
@@ -2014,23 +2014,23 @@ const provinces = [
     places: [
       {
         name: "เมืองโบราณ สมุทรปราการ",
-        image: "/assets/image/samutsongkhrami1.jpg"
+        image: "/project/zubapop/assets/image/samutsongkhrami1.jpg"
       },
       {
         name: "พิพิธภัณฑ์ช้างเอราวัณ",
-        image: "/assets/image/samutsongkhram2.jpg"
+        image: "/project/zubapop/assets/image/samutsongkhram2.jpg"
       },
       {
         name: "ฟาร์มจระเข้และสวนสัตว์สมุทรปราการ",
-        image: "/assets/image/samutsongkhram3.jpg"
+        image: "/project/zubapop/assets/image/samutsongkhram3.jpg"
       },
       {
         name: "ป้อมพระจุลจอมเกล้า สมุทรปราการ",
-        image: "/assets/image/samutsongkhram4.jpg"
+        image: "/project/zubapop/assets/image/samutsongkhram4.jpg"
       },
       {
         name: "วัดอโศการาม สมุทรปราการ",
-        image: "/assets/image/samutsongkhram5.jpg"
+        image: "/project/zubapop/assets/image/samutsongkhram5.jpg"
       }
     ]
   },
@@ -2044,23 +2044,23 @@ const provinces = [
     places: [
       {
         name: "ตลาดมหาชัย",
-        image: "/assets/image/samutsakhon1.jpg"
+        image: "/project/zubapop/assets/image/samutsakhon1.jpg"
       },
       {
         name: "ตลาดน้ำพันท้ายนรสิงห์",
-        image: "/assets/image/samutsakhon2.jpg"
+        image: "/project/zubapop/assets/image/samutsakhon2.jpg"
       },
       {
         name: "ศาลพันท้ายนรสิงห์",
-        image: "/assets/image/samutsakhon3.jpg"
+        image: "/project/zubapop/assets/image/samutsakhon3.jpg"
       },
       {
         name: "วัดเจษฎาราม",
-        image: "/assets/image/samutsakhon4.jpg"
+        image: "/project/zubapop/assets/image/samutsakhon4.jpg"
       },
       {
         name: "วัดโกรกกราก",
-        image: "/assets/image/samutsakhon5.jpg"
+        image: "/project/zubapop/assets/image/samutsakhon5.jpg"
       }
     ]
   },
@@ -2074,23 +2074,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติปางสีดา",
-        image: "/assets/image/sakaeo1.jpg"
+        image: "/project/zubapop/assets/image/sakaeo1.jpg"
       },
       {
         name: "ปราสาทสด๊กก๊อกธม",
-        image: "/assets/image/sakaeo2.jpg"
+        image: "/project/zubapop/assets/image/sakaeo2.jpg"
       },
       {
         name: "ตลาดโรงเกลือ สระแก้ว",
-        image: "/assets/image/sakaeo3.jpg"
+        image: "/project/zubapop/assets/image/sakaeo3.jpg"
       },
       {
         name: "เขื่อนพระปรง",
-        image: "/assets/image/sakaeo4.jpeg"
+        image: "/project/zubapop/assets/image/sakaeo4.jpeg"
       },
       {
         name: "วัดถ้ำเขาฉกรรจ์",
-        image: "/assets/image/sakaeo5.jpg"
+        image: "/project/zubapop/assets/image/sakaeo5.jpg"
       }
     ]
   },
@@ -2104,23 +2104,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติน้ำตกเจ็ดสาวน้อย",
-        image: "/assets/image/saraburi1.jpg"
+        image: "/project/zubapop/assets/image/saraburi1.jpg"
       },
       {
         name: "เขื่อนป่าสักชลสิทธิ์",
-        image: "/assets/image/saraburi2.jpg"
+        image: "/project/zubapop/assets/image/saraburi2.jpg"
       },
       {
         name: "วัดพระพุทธบาทราชวรมหาวิหาร",
-        image: "/assets/image/saraburi3.jpg"
+        image: "/project/zubapop/assets/image/saraburi3.jpg"
       },
       {
         name: "ทุ่งทานตะวันสระบุรี",
-        image: "/assets/image/saraburi4.jpg"
+        image: "/project/zubapop/assets/image/saraburi4.jpg"
       },
       {
         name: "น้ำตกสามหลั่น",
-        image: "/assets/image/saraburi5.jpg"
+        image: "/project/zubapop/assets/image/saraburi5.jpg"
       }
     ]
   },
@@ -2134,23 +2134,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระนอนจักรสีห์วรวิหาร",
-        image: "/assets/image/singburi1.jpg"
+        image: "/project/zubapop/assets/image/singburi1.jpg"
       },
       {
         name: "อุทยานวีรชนค่ายบางระจัน",
-        image: "/assets/image/singburi2.jpg"
+        image: "/project/zubapop/assets/image/singburi2.jpg"
       },
       {
         name: "วัดประโชติการาม",
-        image: "/assets/image/singburi3.jpg"
+        image: "/project/zubapop/assets/image/singburi3.jpg"
       },
       {
         name: "วัดโพธิ์เก้าต้น (ค่ายบางระจัน)",
-        image: "/assets/image/singburi4.jpg"
+        image: "/project/zubapop/assets/image/singburi4.jpg"
       },
       {
         name: "ตลาดไทยย้อนยุคบ้านระจัน",
-        image: "/assets/image/singburi5.jpg"
+        image: "/project/zubapop/assets/image/singburi5.jpg"
       }
     ]
   },
@@ -2164,23 +2164,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระศรีรัตนมหาธาตุ",
-        image: "/assets/image/sukhothai1.jpg"
+        image: "/project/zubapop/assets/image/sukhothai1.jpg"
       },
       {
         name: "น้ำตกสะพานหิน",
-        image: "/assets/image/sukhothai2.jpg"
+        image: "/project/zubapop/assets/image/sukhothai2.jpg"
       },
       {
         name: "วัดเจดีย์หลวง",
-        image: "/assets/image/sukhothai3.jpg"
+        image: "/project/zubapop/assets/image/sukhothai3.jpg"
       },
       {
         name: "วัดกุฎีทอง",
-        image: "/assets/image/sukhothai4.jpg"
+        image: "/project/zubapop/assets/image/sukhothai4.jpg"
       },
       {
         name: "วัดสุวรรณคีรี",
-        image: "/assets/image/sukhothai5.jpg"
+        image: "/project/zubapop/assets/image/sukhothai5.jpg"
       }
     ]
   },
@@ -2194,23 +2194,23 @@ const provinces = [
     places: [
       {
         name: "วัดป่าเลไลย์",
-        image: "/assets/image/suphanburi1.jpg"
+        image: "/project/zubapop/assets/image/suphanburi1.jpg"
       },
       {
         name: "วัดเขียน สุพรรณบุรี",
-        image: "/assets/image/suphanburi2.jpg"
+        image: "/project/zubapop/assets/image/suphanburi2.jpg"
       },
       {
         name: "วัดพระศรีรัตนมหาธาตุสุพรรณบุรี",
-        image: "/assets/image/suphanburi3.jpg"
+        image: "/project/zubapop/assets/image/suphanburi3.jpg"
       },
       {
         name: "พิพิธภัณฑสถานแห่งชาติสุพรรณบุรี",
-        image: "/assets/image/suphanburi4.jpg"
+        image: "/project/zubapop/assets/image/suphanburi4.jpg"
       },
       {
         name: "หอศิลป์สุพรรณบุรี",
-        image: "/assets/image/suphanburi5.jpg"
+        image: "/project/zubapop/assets/image/suphanburi5.jpg"
       }
     ]
   },
@@ -2224,23 +2224,23 @@ const provinces = [
     places: [
       {
         name: "เกาะสมุย",
-        image: "/assets/image/suratthani1.jpg"
+        image: "/project/zubapop/assets/image/suratthani1.jpg"
       },
       {
         name: "เกาะพะงัน",
-        image: "/assets/image/suratthani2.webp"
+        image: "/project/zubapop/assets/image/suratthani2.webp"
       },
       {
         name: "เกาะเต่า",
-        image: "/assets/image/suratthani3.jpg"
+        image: "/project/zubapop/assets/image/suratthani3.jpg"
       },
       {
         name: "วัดพระบรมธาตุไชยา",
-        image: "/assets/image/suratthani4.jpg"
+        image: "/project/zubapop/assets/image/suratthani4.jpg"
       },
       {
         name: "อุทยานแห่งชาติเขาสก",
-        image: "/assets/image/suratthani5.jpg"
+        image: "/project/zubapop/assets/image/suratthani5.jpg"
       }
     ]
   },
@@ -2254,23 +2254,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติภูเขียว",
-        image: "/assets/image/surin1.jpg"
+        image: "/project/zubapop/assets/image/surin1.jpg"
       },
       {
         name: "ปราสาทหินเมืองต่ำ สุรินทร์",
-        image: "/assets/image/surin2.jpg"
+        image: "/project/zubapop/assets/image/surin2.jpg"
       },
       {
         name: "ปราสาทหินบาดาล",
-        image: "/assets/image/surin3.jpg"
+        image: "/project/zubapop/assets/image/surin3.jpg"
       },
       {
         name: "น้ำตกห้วยเตย",
-        image: "/assets/image/surin4.jpg"
+        image: "/project/zubapop/assets/image/surin4.jpg"
       },
       {
         name: "อุทยานประวัติศาสตร์ศรีขรภูมิ",
-        image: "/assets/image/surin5.jpg"
+        image: "/project/zubapop/assets/image/surin5.jpg"
       }
     ]
   },
@@ -2284,23 +2284,23 @@ const provinces = [
     places: [
       {
         name: "น้ำตกตาดฟ้า",
-        image: "/assets/image/nongkhai1.jpg"
+        image: "/project/zubapop/assets/image/nongkhai1.jpg"
       },
       {
         name: "สะพานมิตรภาพไทย-ลาว",
-        image: "/assets/image/nongkhai2.jpg"
+        image: "/project/zubapop/assets/image/nongkhai2.jpg"
       },
       {
         name: "ถนนคนเดินหนองคาย",
-        image: "/assets/image/nongkhai3.jpg"
+        image: "/project/zubapop/assets/image/nongkhai3.jpg"
       },
       {
         name: "พิพิธภัณฑ์หนองคาย",
-        image: "/assets/image/nongkhai4.jpg"
+        image: "/project/zubapop/assets/image/nongkhai4.jpg"
       },
       {
         name: "ภูพระบาท",
-        image: "/assets/image/nongkhai5.jpeg"
+        image: "/project/zubapop/assets/image/nongkhai5.jpeg"
       }
     ]
   },
@@ -2314,23 +2314,23 @@ const provinces = [
     places: [
       {
         name: "อุทยานแห่งชาติภูผาม่าน",
-        image: "/assets/image/nblp1.jpg"
+        image: "/project/zubapop/assets/image/nblp1.jpg"
       },
       {
         name: "วัดสระประสานสุข",
-        image: "/assets/image/nblp2.jpg"
+        image: "/project/zubapop/assets/image/nblp2.jpg"
       },
       {
         name: "วัดถ้ำเขาแก้ว",
-        image: "/assets/image/nblp3.jpg"
+        image: "/project/zubapop/assets/image/nblp3.jpg"
       },
       {
         name: "น้ำตกตาดโตน",
-        image: "/assets/image/nblp4.jpg"
+        image: "/project/zubapop/assets/image/nblp4.jpg"
       },
       {
         name: "อ่างเก็บน้ำห้วยท่าเลื่อน",
-        image: "/assets/image/nblp5.jpg"
+        image: "/project/zubapop/assets/image/nblp5.jpg"
       }
     ]
   },
@@ -2344,23 +2344,23 @@ const provinces = [
     places: [
       {
         name: "พิพิธภัณฑ์ตำนานเมืองอ่างทอง",
-        image: "/assets/image/angthongi1.jpg"
+        image: "/project/zubapop/assets/image/angthongi1.jpg"
       },
       {
         name: "วัดทองทิพย์",
-        image: "/assets/image/angthong2.jpeg"
+        image: "/project/zubapop/assets/image/angthong2.jpeg"
       },
       {
         name: "อ่างเก็บน้ำห้วยขวาง",
-        image: "/assets/image/angthong3.jpg"
+        image: "/project/zubapop/assets/image/angthong3.jpg"
       },
       {
         name: "น้ำตกบ้านป่า",
-        image: "/assets/image/angthong4.jpg"
+        image: "/project/zubapop/assets/image/angthong4.jpg"
       },
       {
         name: "วัดโบสถ์อ่างทอง",
-        image: "/assets/image/angthong5.jpg"
+        image: "/project/zubapop/assets/image/angthong5.jpg"
       }
     ]
   },
@@ -2374,23 +2374,23 @@ const provinces = [
     places: [
       {
         name: "วัดโพธิสมภรณ์ อุดรธานี",
-        image: "/assets/image/udonthani1.jpg"
+        image: "/project/zubapop/assets/image/udonthani1.jpg"
       },
       {
         name: "อุทยานแห่งชาติภูหินร่องกล้า",
-        image: "/assets/image/udonthani2.jpg"
+        image: "/project/zubapop/assets/image/udonthani2.jpg"
       },
       {
         name: "วัดป่าภูก้อน",
-        image: "/assets/image/udonthani3.jpg"
+        image: "/project/zubapop/assets/image/udonthani3.jpg"
       },
       {
         name: "พิพิธภัณฑ์เมืองอุดรธานี",
-        image: "/assets/image/udonthani4.webp"
+        image: "/project/zubapop/assets/image/udonthani4.webp"
       },
       {
         name: "ตลาดนัดอุดรธานี",
-        image: "/assets/image/udonthani5.jpg"
+        image: "/project/zubapop/assets/image/udonthani5.jpg"
       }
     ]
   },
@@ -2404,23 +2404,23 @@ const provinces = [
     places: [
       {
         name: "วัดพระแท่นศิลาอาสน์",
-        image: "/assets/image/uttaradit1.jpg"
+        image: "/project/zubapop/assets/image/uttaradit1.jpg"
       },
       {
         name: "น้ำตกภูสอยดาว",
-        image: "/assets/image/uttaradit2.jpg"
+        image: "/project/zubapop/assets/image/uttaradit2.jpg"
       },
       {
         name: "อุทยานแห่งชาติภูสอยดาว",
-        image: "/assets/image/uttaradit3.jpg"
+        image: "/project/zubapop/assets/image/uttaradit3.jpg"
       },
       {
         name: "วัดพระบรมธาตุแช่แห้ง",
-        image: "/assets/image/uttaradit4.jpg"
+        image: "/project/zubapop/assets/image/uttaradit4.jpg"
       },
       {
         name: "วัดจอมทอง อุตรดิตถ์",
-        image: "/assets/image/uttaradit5.jpg"
+        image: "/project/zubapop/assets/image/uttaradit5.jpg"
       }
     ]
   },
@@ -2434,23 +2434,23 @@ const provinces = [
     places: [
       {
         name: "ศูนย์ศิลปวัฒนธรรมจังหวัดอุทัยธานี อุทัยธานี",
-        image: "/assets/image/uthaithani1.jpg"
+        image: "/project/zubapop/assets/image/uthaithani1.jpg"
       },
       {
         name: "วัดท่าซุง",
-        image: "/assets/image/uthaithani2.jpg"
+        image: "/project/zubapop/assets/image/uthaithani2.jpg"
       },
       {
         name: "วัดเจ้าอาม",
-        image: "/assets/image/uthaithani3.jpg"
+        image: "/project/zubapop/assets/image/uthaithani3.jpg"
       },
       {
         name: "น้ำตกไทรโยค",
-        image: "/assets/image/uthaithani4.jpeg"
+        image: "/project/zubapop/assets/image/uthaithani4.jpeg"
       },
       {
         name: "วัดห้วยเขน",
-        image: "/assets/image/uthaithani5.jpg"
+        image: "/project/zubapop/assets/image/uthaithani5.jpg"
       }
     ]
   },
@@ -2464,23 +2464,23 @@ const provinces = [
     places: [
       {
         name: "น้ำตกลงรู",
-        image: "/assets/image/ubonratchathani1.jpg"
+        image: "/project/zubapop/assets/image/ubonratchathani1.jpg"
       },
       {
         name: "อุทยานแห่งชาติผาแต้ม",
-        image: "/assets/image/ubonratchathani2.jpg"
+        image: "/project/zubapop/assets/image/ubonratchathani2.jpg"
       },
       {
         name: "วัดพระธาตุหนองบัว",
-        image: "/assets/image/ubonratchathani3.jpg"
+        image: "/project/zubapop/assets/image/ubonratchathani3.jpg"
       },
       {
         name: "อุทยานแห่งชาติแก่งตะนะ",
-        image: "/assets/image/ubonratchathani4.jpg"
+        image: "/project/zubapop/assets/image/ubonratchathani4.jpg"
       },
       {
         name: "พิพิธภัณฑ์เมืองอุบลราชธานี",
-        image: "/assets/image/ubonratchathani5.jpeg"
+        image: "/project/zubapop/assets/image/ubonratchathani5.jpeg"
       }
     ]
   },
@@ -2494,26 +2494,26 @@ const provinces = [
     places: [
       {
         name: "วัดถ้ำแสงธรรม",
-        image: "/assets/image/amnat1.jpg"
+        image: "/project/zubapop/assets/image/amnat1.jpg"
       },
       {
         name: "พระธาตุนาหินกอง",
-        image: "/assets/image/amnat2.webp"
+        image: "/project/zubapop/assets/image/amnat2.webp"
       },
       {
         name: "วัดไชยาติการาม",
-        image: "/assets/image/amnat3.jpg"
+        image: "/project/zubapop/assets/image/amnat3.jpg"
       },
       {
         name: "วัดพุทธอุทยานอำนาจเจริญ",
-        image: "/assets/image/amnat4.jpg"
+        image: "/project/zubapop/assets/image/amnat4.jpg"
       },
       {
         name: "อ่างเก็บน้ำห้วยทราย",
-        image: "/assets/image/amnat5.jpg"
+        image: "/project/zubapop/assets/image/amnat5.jpg"
       }
     ]
-  }  
+  }
 ];
 
 export default provinces;

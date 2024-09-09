@@ -1,13 +1,17 @@
 /* Navbar.css */
 .collapse.navbar-collapse {
-    padding-right: 200px; /* เพิ่มพื้นที่ด้านขวาให้กับ Navbar */
+    padding-right: 200px;
+    /* เพิ่มพื้นที่ด้านขวาให้กับ Navbar */
 }
 
 .custom-navbar {
-    border-bottom: 5px solid rgb(86, 205, 249); /* เส้นขอบล่างสีดำ */
-    padding: 3%; /* เพิ่มพื้นที่ภายใน navbar เพื่อให้มีความสวยงาม */
-        background-color: #ffffff; /* สีพื้นหลังของ Navbar */
-        justify-content: center;
+    border-bottom: 5px solid rgb(86, 205, 249);
+    /* เส้นขอบล่างสีดำ */
+    padding: 3%;
+    /* เพิ่มพื้นที่ภายใน navbar เพื่อให้มีความสวยงาม */
+    background-color: #ffffff;
+    /* สีพื้นหลังของ Navbar */
+    justify-content: center;
 
 }
 
@@ -15,7 +19,7 @@
 .navbar-nav {
     margin-right: auto;
     margin-left: auto;
-    
+
 }
 
 .navbar-nav .nav-item {
@@ -45,7 +49,7 @@
 
 .navbar-toggler {
     border-color: #ffffff;
-    
+
     /* สีของขอบปุ่ม toggle */
 }
 
@@ -54,14 +58,26 @@
 }
 
 .nav-link {
-    color: #fff; /* สีตัวอักษร */
-    font-size: 16px; /* ขนาดตัวอักษร */
-    font-weight: 500; /* น้ำหนักตัวอักษร */
-    text-decoration: none; /* ไม่มีเส้นใต้ */
-    transition: color 0.3s ease; /* เอฟเฟกต์เปลี่ยนสี */
+    color: #fff;
+    /* สีตัวอักษร */
+    font-size: 16px;
+    /* ขนาดตัวอักษร */
+    font-weight: 500;
+    /* น้ำหนักตัวอักษร */
+    text-decoration: none;
+    /* ไม่มีเส้นใต้ */
+    transition: color 0.3s ease;
+    /* เอฟเฟกต์เปลี่ยนสี */
 }
 
 .navbar-collapse {
-    justify-content: center; /* จัดตำแหน่งลิงก์เมนูในแนวนอน */
+    justify-content: center;
+    /* จัดตำแหน่งลิงก์เมนูในแนวนอน */
 }
 
+.navbar-logo {
+    height: 90px;
+    /* ปรับตามความสูงของ Navbar */
+    width: auto;
+    /* ให้ขนาดกว้างอัตโนมัติตามอัตราส่วน */
+}
