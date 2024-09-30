@@ -1,9 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'; // นำเข้าไลบรารี react-leaflet
 import provinces from '../data/provinces'; // หรือเส้นทางที่คุณจัดเก็บไฟล์ provinces
 import '../css/LocationPage.css'; // นำเข้าไฟล์ CSS
 import '../css/Forcast.css';
+import L from 'leaflet'; // ใช้ L จาก Leaflet
+import 'leaflet/dist/leaflet.css'; // นำเข้า CSS ของ Leaflet
+
+const createNumberedIcon = (number) => {
+    return new L.DivIcon({
+        html: `<div style="background-color: #f28; color: white; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;">${number}</div>`,
+        iconSize: [30, 30],
+        className: 'custom-marker-number'
+    });
+};
+
 
 const AQI_API_KEY = "47de584d708e209aa1803379fa530fe9221def58";
 const WEATHER_API_KEY = "a7eb9b77e07f31e1d15647268b03e60f";
@@ -95,6 +107,19 @@ const LocationDetail = () => {
                     <h4 className="alert-heading">{pm25} - {status}</h4>
                 </div>
                 <p>{province.description}</p>
+                <div className="map-container" style={{ height: '400px', marginBottom: '20px' }}>
+                    <MapContainer center={[province.lat, province.lon]} zoom={10} style={{ height: '100%', width: '100%' }}>
+                        <TileLayer
+                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                        />
+                        {province.places.map((place, index) => (
+                            <Marker key={index} position={[place.lat, place.lon]} icon={createNumberedIcon(index + 1)}>
+                                <Popup>{place.name}</Popup>
+                            </Marker>
+                        ))}
+                    </MapContainer>
+                </div>
                 <ul className="place-list">
                     <h3>สถานที่ท่องเที่ยว ที่ไม่ควรพลาด</h3>
                     {province.places.map((place, index) => (
