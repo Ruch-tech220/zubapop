@@ -34,9 +34,9 @@ const WeatherForecast = () => {
         <div>
             <h1>สภาพอากาศล่วงหน้า 5 วันสำหรับ {city}</h1>
             <select onChange={handleProvinceChange} value={city}>
-                {provinces.map((province, index) => (
-                    <option key={index} value={province.name}>
-                        {province.name}
+                {provinces.map((provinces, index) => (
+                    <option key={index} value={provinces.name}>
+                        {provinces.name}
                     </option>
                 ))}
             </select>

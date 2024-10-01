@@ -55,8 +55,8 @@ const TableComponent = ({ provinces }) => {
     }, [provinces]);
 
     useEffect(() => {
-        const filtered = data.filter(province =>
-            province.name.toLowerCase().includes(searchQuery.toLowerCase())
+        const filtered = data.filter(provinces =>
+            provinces.name.toLowerCase().includes(searchQuery.toLowerCase())
         );
         filtered.sort((a, b) => parseInt(a.postalCode, 10) - parseInt(b.postalCode, 10));
         setFilteredProvinces(filtered);
