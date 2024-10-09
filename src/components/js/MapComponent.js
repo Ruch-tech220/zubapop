@@ -8,12 +8,11 @@
 // import "leaflet.fullscreen/Control.FullScreen.css";
 // import "leaflet.fullscreen";
 
-
 // const API_KEY = "47de584d708e209aa1803379fa530fe9221def58";
 
 // const MapComponent = () => {
 //     const mapRef = useRef(null);
-//     const [infoContent, setInfoContent] = useState("");
+//     const [infoContent, setInfoContent] = useState(null); // เปลี่ยนจาก string เป็น null หรือ React element
 //     const navigate = useNavigate();
 
 
@@ -36,8 +35,7 @@
 
 //             fetchAllProvincesData(mapRef.current);
 //         }
-//     }, []);
-
+//     }, [fetchAllProvincesData]);
 
 //     function createCustomIcon(pm25) {
 //         return L.divIcon({
@@ -70,7 +68,6 @@
 //         return "ไม่ทราบ";
 //     }
 
-
 //     async function fetchProvincePM25Data(province) {
 //         try {
 //             const response = await fetch(`https://api.waqi.info/feed/geo:${province.lat};${province.lon}/?token=${API_KEY}`);
@@ -83,6 +80,12 @@
 //                 const t = iaqi.t ? iaqi.t.v : "N/A";
 //                 const h = iaqi.h ? iaqi.h.v : "N/A";
 //                 const w = iaqi.w ? iaqi.w.v : "N/A";
+//                 const co = iaqi.co ? iaqi.co.v : "N/A";
+//                 const no2 = iaqi.no2 ? iaqi.no2.v : "N/A";
+//                 const o3 = iaqi.o3 ? iaqi.o3.v : "N/A";
+//                 const so2 = iaqi.so2 ? iaqi.so2.v : "N/A";
+//                 const p = iaqi.p ? iaqi.p.v : "N/A";
+//                 const r = iaqi.r ? iaqi.r.v : "N/A";
 //                 const currentTime = new Date(data.data.time.iso).toLocaleString("th-TH", {
 //                     weekday: "long",
 //                     year: "numeric",
@@ -109,35 +112,53 @@
 //                             <p class="tooltip-updated">${currentTime}</p>
 //                         </div>
 //                         <div class="tooltip-details">
-//                             <p>ค่า PM2.5: ${pm25}</p>
-//                             <p>ค่า PM10: ${pm10}</p>
+//                             <p>ค่า PM2.5: ${pm25}μg/m³</p>
+//                             <p>ค่า PM10: ${pm10}μg/m³</p>
 //                             <p>อุณหภูมิ: ${t} °C</p>
 //                             <p>ความชื้น: ${h} %</p>
 //                             <p>ความเร็วลม: ${w} m/s</p>
+//                             <p>ค่า CO: ${co} μg/m³</p>
+//                             <p>ค่า NO<sub>2</sub>: ${no2} μg/m³</p>
+//                             <p>ค่า O<sub>3</sub>: ${o3} μg/m³</p>
+//                             <p>ค่า SO<sub>2</sub>: ${so2} μg/m³</p>
+//                             <p>ความกดอากาศ: ${p} hPa</p>
+//                             <p>ปริมาณน้ำฝน: ${r} mm</p>
 //                         </div>
 //                     </div>
 //                 `, { sticky: true });
 
-
 //                 marker.on("click", function () {
-//                     setInfoContent(`
-//                        <div class="container info-content-container">
-//                         <h2 class="info-header">สถานที่คือ: จังหวัด ${province.name}</h2>
-//                         <div class="info-status" style="background-color: ${color};">
-//                             <h4 class="info-heading">${pm25} ${status}</h4>
-//                          </div>
-//                         <h3 class="mb-3">รายละเอียด:</h3>
-//                          <ul class="list-group info-list">
-//                         <li class="list-group-item">ค่า PM2.5: ${pm25}</li>
-//                         <li class="list-group-item">ค่า PM10: ${pm10}</li>
-//                         <li class="list-group-item">อุณหภูมิ: ${t} °C</li>
-//                         <li class="list-group-item">ความชื้น: ${h} %</li>
-//                         <li class="list-group-item">ความเร็วลม: ${w} m/s</li>
-//                         <li class="list-group-item">อัปเดตล่าสุด: ${currentTime}</li>
-//                         </ul>
-//                         <button onclick="window.location.href='/location/${province.postalCode}'" class="btn btn-primary info-button">ดูรายละเอียดเพิ่มเติม</button>
-//                     </div>
-//                     `);
+//                     setInfoContent(
+//                         <div className="container info-content-container">
+//                             <h2 className="info-header">สถานที่คือ: จังหวัด {province.name}</h2>
+//                             <div className="info-status" style={{ backgroundColor: color }}>
+//                                 <h4 className="info-heading">{pm25} {status}</h4>
+//                             </div>
+//                             <h3 className="mb-3">รายละเอียด:</h3>
+//                             <div className="container" style={{ padding: '15px', border: '2px solid #ddd', borderRadius: '8px', backgroundColor: '#f9f9f9', marginTop: '20px' }}>
+//                                 <ul>
+//                                     <li className="list-group-item">ค่า PM2.5: {pm25} μg/m³</li>
+//                                     <li className="list-group-item">ค่า PM10: {pm10} μg/m³</li>
+//                                     <li className="list-group-item">อุณหภูมิ: {t} °C</li>
+//                                     <li className="list-group-item">ความชื้น: {h} %</li>
+//                                     <li className="list-group-item">ความเร็วลม: {w} m/s</li>
+//                                     <li className="list-group-item">ค่า CO: {co} μg/m³</li>
+//                                     <li className="list-group-item">ค่า NO<sub>2</sub>: {no2} μg/m³</li>
+//                                     <li className="list-group-item">ค่า O<sub>3</sub>: {o3} μg/m³</li>
+//                                     <li className="list-group-item">ค่า SO<sub>2</sub>: {so2} μg/m³</li>
+//                                     <li className="list-group-item">ความกดอากาศ: {p} hPa</li>
+//                                     <li className="list-group-item">ปริมาณน้ำฝน: {r} mm</li>
+//                                     <li className="list-group-item">อัปเดตล่าสุด: {currentTime}</li>
+//                                 </ul>
+//                             </div>
+//                             <button
+//                                 className="btn btn-primary info-button"
+//                                 onClick={() => navigate(`/location/${province.postalCode}`)}
+//                             >
+//                                 ดูรายละเอียดเพิ่มเติม
+//                             </button>
+//                         </div>
+//                     );
 //                 });
 //                 return marker;
 //             } else {
@@ -157,6 +178,35 @@
 //         });
 //     }
 
+//     const [weatherData, setWeatherData] = useState([]);
+
+//     useEffect(() => {
+//         const fetchWeatherData = async () => {
+//             try {
+//                 const response = await fetch('/get_weather_data.php'); 
+//                 const data = await response.json();
+//                 setWeatherData(data);
+//             } catch (error) {
+//                 console.error("Error fetching data:", error);
+//             }
+//         };
+
+//         fetchWeatherData();
+//     }, []);
+
+//   useEffect(() => {
+//     const fetchWeatherData = async () => {
+//       try {
+//         const response = await fetch('/api/weather');
+//         const data = await response.json();
+//         setWeatherData(data);
+//       } catch (err) {
+//         console.error('Error fetching weather data:', err);
+//       }
+//     };
+
+//     fetchWeatherData();
+//   }, []);
 
 //     return (
 //         <div className="MapCom">
@@ -164,7 +214,7 @@
 //                 <table className="tableAQI">
 //                     <thead>
 //                         <tr className="headeraqi">
-//                             <th>PM<sub>2.5</sub>(μg/m<sup>3</sup>)</th>
+//                             <th>PM<sub>2.5</sub>(μg/m<sup>3</sup>)(ไมโครกรัมต่อลูกบาศก์เมตร)</th>
 //                             <td className="pm25-range-1">0-25</td>
 //                             <td className="pm25-range-2">26-50</td>
 //                             <td className="pm25-range-3">51-100</td>
@@ -177,13 +227,13 @@
 //                     </tbody>
 //                 </table>
 //                 <div className="col-md-6">
-//                     <div id="map"></div>
+//                     <div id="map" style={{ height: "600px" }}></div> {/* กำหนดความสูงของแผนที่ */}
 //                 </div>
 //                 <div className="col-md-6">
-//                     <div id="info-content" dangerouslySetInnerHTML={{ __html: infoContent }}></div>
-
+//                     <div id="info-content">
+//                         {infoContent}
+//                     </div>
 //                     {/* ตารางข้อมูลที่มีการแสดงค่า PM2.5 */}
-
 //                 </div>
 //             </div>
 //         </div>
@@ -191,6 +241,7 @@
 // };
 
 // export default MapComponent;
+
 
 import React, { useEffect, useRef, useState } from "react";
 import L from "leaflet";
@@ -289,6 +340,29 @@ const MapComponent = () => {
                     minute: "2-digit",
                     second: "2-digit",
                 });
+                
+                await fetch('/save_pm25_data.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        province_name: province.name,
+                        pm25: pm25,
+                        pm10: pm10,
+                        temperature: t,
+                        humidity: h,
+                        wind_speed: w,
+                        co: co,
+                        no2: no2,
+                        o3: o3,
+                        so2: so2,
+                        pressure: p,
+                        rainfall: r,
+                        updated_at: currentTime,
+                    }),
+                });
+                
 
                 const color = getColor(pm25);
                 const status = getStatus(pm25);
@@ -372,6 +446,36 @@ const MapComponent = () => {
         });
     }
 
+    const [weatherData, setWeatherData] = useState([]);
+
+    useEffect(() => {
+        const fetchWeatherData = async () => {
+            try {
+                const response = await fetch('/get_weather_data.php'); 
+                const data = await response.json();
+                setWeatherData(data);
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        };
+
+        fetchWeatherData();
+    }, []);
+
+  useEffect(() => {
+    const fetchWeatherData = async () => {
+      try {
+        const response = await fetch('/api/weather');
+        const data = await response.json();
+        setWeatherData(data);
+      } catch (err) {
+        console.error('Error fetching weather data:', err);
+      }
+    };
+
+    fetchWeatherData();
+  }, []);
+
     return (
         <div className="MapCom">
             <div className="row">
@@ -405,4 +509,5 @@ const MapComponent = () => {
 };
 
 export default MapComponent;
+
 

@@ -13,6 +13,18 @@ const WeatherForecast = () => {
                 const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=a7eb9b77e07f31e1d15647268b03e60f&units=metric&lang=th`);
                 setForecast(response.data.list);
                 setLoading(false);
+
+                // Loop ผ่านข้อมูลและบันทึกลงฐานข้อมูล
+                await Promise.all(response.data.list.slice(0, 40).map(async (weather) => {
+                    await axios.post('http://localhost/your-react-app/backend/save_weather.php', { // เปลี่ยน path ตามที่อยู่ของไฟล์ PHP
+                        province_name: city,
+                        weather_time: new Date(weather.dt * 1000).toISOString(),
+                        temperature: weather.main.temp,
+                        humidity: weather.main.humidity,
+                        weather_description: weather.weather[0].description,
+                    });
+                }));
+
             } catch (error) {
                 console.error('Error fetching the weather data', error);
             }

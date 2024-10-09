@@ -100,7 +100,7 @@ const LocationDetail = () => {
                 </div>
                 <p>{province.description}</p>
 
-                <LocationMap postalCode={postalCode} />
+                {/* <LocationMap lat={province.lat} lng={province.lon} /> */}
 
 
                 <ul className="place-list">
