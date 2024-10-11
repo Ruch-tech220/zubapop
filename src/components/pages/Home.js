@@ -4,7 +4,6 @@ import MapComponent from '../js/MapComponent';
 import provinces from '../data/provinces';
 import TableComponent from '../js/TableComponent';
 import '../css/Home.css'
-import WeatherForecast from '../js/WeatherForecast';
 
 const Home = () => {
     return (

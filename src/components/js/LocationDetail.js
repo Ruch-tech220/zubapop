@@ -4,7 +4,6 @@ import axios from 'axios';
 import provinces from '../data/provinces'; // หรือเส้นทางที่คุณจัดเก็บไฟล์ provinces
 import '../css/LocationPage.css'; // นำเข้าไฟล์ CSS
 import '../css/Forcast.css';
-import LocationMap from '../js/LocationMap';
 import 'leaflet/dist/leaflet.css'; // นำเข้า CSS ของ Leaflet
 
 
