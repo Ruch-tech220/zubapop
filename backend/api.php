@@ -1,9 +1,9 @@
 <?php
 // กำหนดค่าเชื่อมต่อฐานข้อมูล
 $servername = "localhost"; // เปลี่ยนให้เป็นชื่อเซิร์ฟเวอร์ของคุณ
-$username = "root"; // ชื่อผู้ใช้ฐานข้อมูล
-$password = ""; // รหัสผ่านของฐานข้อมูล
-$dbname = "aqi_db"; // ชื่อฐานข้อมูล
+$username = "arm2024_zubapop"; // ชื่อผู้ใช้ฐานข้อมูล
+$password = "tZNnzSnXyvx4gFT3pSkS"; // รหัสผ่านของฐานข้อมูล
+$dbname = "arm2024_zubapop"; // ชื่อฐานข้อมูล
 
 // สร้างการเชื่อมต่อ
 $conn = new mysqli($servername, $username, $password, $dbname);
