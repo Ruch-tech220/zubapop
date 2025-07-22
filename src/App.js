@@ -73,6 +73,7 @@ import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import TableComponentPage from './components/pages/TableComponentPage';
 import MapComponentPage from './components/pages/MapComponentPage';
+import Weather from './components/pages/Weather';
 import axios from 'axios';
 
 const AppContent = () => {
@@ -114,6 +115,8 @@ const AppContent = () => {
           <Route path="/location/:postalCode" element={<LocationPage aqiData={aqiData} />} />
           <Route path="/Table" element={<TableComponentPage aqiData={aqiData} />} />
           <Route path="/Map" element={<MapComponentPage aqiData={aqiData} />} />
+          <Route path="/weather" element={<Weather aqiData={aqiData} />} />
+
         </Routes>
       )}
       <Footer />
